@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Growce Deal Ledger</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+:root{
+  --red-900:#700000; --red-700:#CC0000; --red-600:#FF3131; --red-500:#FF3D3D; --red-400:#FF5C5C; --red-100:#FFD6D6; --red-50:#FFEDED;
+  --ink:#1C1B1A; --slate:#5A5854; --slate-2:#8A877F;
+  --gray-50:#FAFAF8; --gray-100:#F2F1EC; --gray-150:#EAE8E1; --gray-200:#E0DED5; --gray-300:#CBC8BC;
+  --white:#FFFFFF;
+  --green:#3B6D11; --green-bg:#EAF3DE; --blue:#185FA5; --blue-bg:#E6F1FB;
+  --shadow-sm:0 1px 2px rgba(28,27,26,.06);
+  --shadow-md:0 6px 20px rgba(28,27,26,.10);
+  --radius:10px;
+  --font-head:'Space Grotesk',system-ui,sans-serif;
+  --font-body:'Inter',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{font-family:var(--font-body);color:var(--ink);background:var(--gray-50);line-height:1.5;-webkit-font-smoothing:antialiased;}
+h1,h2,h3{font-family:var(--font-head);margin:0;letter-spacing:-.01em;}
+table{border-collapse:collapse;width:100%;}
+button{font-family:var(--font-body);cursor:pointer;transition:all .15s ease;}
+input,select,textarea{font-family:var(--font-body);transition:border-color .15s ease;}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--red-400);outline-offset:1px;}
+.mono{font-family:var(--font-mono);}
+.scroll::-webkit-scrollbar{height:8px;width:8px;}
+.scroll::-webkit-scrollbar-thumb{background:var(--gray-300);border-radius:4px;}
+.card{background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);box-shadow:var(--shadow-sm);}
+.btn{border:none;border-radius:8px;font-weight:600;padding:10px 16px;font-size:13.5px;}
+.btn-primary{background:var(--red-600);color:#fff;}
+.btn-primary:hover{background:var(--red-700);}
+.btn-secondary{background:#fff;border:1px solid var(--gray-300);color:var(--ink);}
+.btn-secondary:hover{background:var(--gray-100);}
+.btn-sm{padding:6px 11px;font-size:12px;border-radius:6px;}
+.btn:disabled{opacity:.5;cursor:not-allowed;}
+tr[data-row]{cursor:pointer;transition:background .1s ease;}
+tr[data-row]:hover{background:var(--gray-50);}
+::placeholder{color:var(--slate-2);}
+.spin{animation:gi-spin 0.8s linear infinite;}
+@keyframes gi-spin{to{transform:rotate(360deg);}}
+.skel{background:linear-gradient(90deg,var(--gray-100) 25%,var(--gray-150) 37%,var(--gray-100) 63%);background-size:400% 100%;animation:gi-shimmer 1.4s ease infinite;border-radius:6px;}
+@keyframes gi-shimmer{0%{background-position:100% 50%;}100%{background-position:0 50%;}}
+.pagebtn{min-width:32px;height:32px;padding:0 8px;border-radius:7px;border:1px solid var(--gray-300);background:#fff;font-size:12.5px;font-weight:600;color:var(--slate);}
+.pagebtn:hover:not(:disabled){background:var(--gray-100);}
+.pagebtn.active{background:var(--red-600);border-color:var(--red-600);color:#fff;}
+.gi-table{table-layout:fixed;border-collapse:separate;border-spacing:0;width:auto;}
+.gi-table thead th{border-bottom:1px solid var(--gray-200);}
+.gi-table th,.gi-table td{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.gi-table tbody tr:nth-child(even){background:var(--gray-50);}
+.gi-table tbody tr:hover{background:var(--red-50) !important;}
+.col-resizer{position:absolute;top:0;right:0;width:6px;height:100%;cursor:col-resize;z-index:6;}
+.col-resizer:hover,.col-resizer.active{background:rgba(219,0,0,.25);}
+.nav-item{position:relative;text-align:left;padding:10px 12px 10px 16px;border:none;border-radius:8px;font-size:13.5px;background:transparent;color:var(--slate);transition:background .16s ease,color .16s ease,padding-left .16s ease;}
+.nav-item::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:3px;height:0;background:var(--red-600);border-radius:0 3px 3px 0;transition:height .16s ease;}
+.nav-item:hover{background:var(--gray-100);color:var(--ink);padding-left:20px;}
+.nav-item:hover::before{height:60%;}
+.nav-item.active{background:var(--red-600);color:#fff;font-weight:600;}
+.nav-item.active::before{height:0;}
+.nav-item.active:hover{background:var(--red-700);padding-left:16px;}
+.auth-panel{flex:1 1 50%;min-width:0;}
+@media (max-width:760px){.auth-panel{flex-basis:100%;}}
+@media (max-width:820px){
+  #gi-sidebar{position:fixed;left:-240px;top:0;bottom:0;z-index:60;transition:left .2s ease;}
+  #gi-sidebar.open{left:0;}
+  #gi-hamburger{display:flex !important;}
+  #gi-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:55;}
+  #gi-overlay.show{display:block;}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important;}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+/* ============================================================
+   SUPABASE CONFIG — fill in your project details here
+   Find these at: Supabase Dashboard > Project Settings > API
+   ============================================================ */
+const SUPABASE_URL = "https://wgjilgkinuiewlkgbays.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndnamlsZ2tpbnVpZXdsa2diYXlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM3NTI5NjksImV4cCI6MjA5OTMyODk2OX0.IWrnLpBkVoA2l2hp87x2w8DJqUqV5P5dfZHo8I-hB9E";
+/* ============================================================ */
+
+(function(){
+
+var root = document.getElementById('root');
+var sb = null;
+try{ if(SUPABASE_URL.indexOf('YOUR_')!==0) sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY); }catch(e){}
+
+var LOGO_DATA_URI='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAHXUlEQVR4nO2av28jxxXHP292SUaWDpJ8suCDkcpCOlvSKQYCpCCMNEYAFykYJCnipEsVIEUQ5I9IGXcxEnfxxs6VaRkgpawfCFTcCQicInDuYgPSiUeR3J2XYnZILrVLkSuSDhB+gQF3yeHOzHfevHnfNwtLLLHEEkssscQSSyyxxP8jZJ4P10Yj4OnTbBvb29q/jiIdrj7Sscz9vDA3AhTkroNQ1z/Xx0ZDbpDpsb2tEkVJmTZmTkDaaQRUDw7eBh5ircXaFtBC5ArVNqovqFZbJMk1SXJNrdbm+rqDSJfNzY40m/Gs+5aHeRBgAGVv733C8Gf5lXTw6a67QA/ooHqNSAdoo9oGXqSl1f8Uucp8WvuM4+OPBey0/Z0pAVqvh9Jsxrq//1MqlQ/odkdn0bUnIkP3/ruhWiPdKrpXBWOg13vGzs4DiaJk2qU3WwL88/b3DzFmlyRRRILJ/lpwr1roKBGxiBisPZHj42+W6XNY5k95UDACVt9661Xi+BuoGkQmnYnRiRjcj85+plFNMCZA5Hq4D9P0e2YE9GHtKqq1mT+3CCKgelX272aGXfGz/R/gYorZv3ubIs8Bt1VOiZkRIKDaaARyeHgBNAkCQbWLM0lfdEwpD9VLgMI4YQxmaQEQRaogWPtrkuQZlUoNETNUJFMGu4DvuCfDEaaaMMma9hZQAjMlIHVAIqenj7H22yTJh6ieYe1nWPsvVJ+i+iXWXmJtG+img0wfkBJjjMEYQxAEiIzvo3OSl2X7PHMnKGAVjBwfPwHeUxB2dqpsbRmsrXB1FRKGIUEQAhVEKkAF1SrgrpOkhsgKxgSo/pAg+BFxnORuqS6Y+t8hAAYk0GiIRFHC+XmH83OA9rTP0r29b6WzXOwn5kWAglCvB2xvK1EEjcbtjsarvSjyPmGaZSY0Gu7q+fOQe/dizs+/jhaO3fXFmPkQIKAMi5IoKtvODejA8YnfviSKEt+GNhpIFCW6t7c56E4BrHVOcFhqT4hcAvqdq9cDLi9/DrwNBKi+QMSpOmilAchA5XnBItJCtY21bSqVNklyTRh2aLU6QJezs95QvK65xA5yBZuFFiAiqJK2XQpFFuBm5cmTT6hW3yVJ8kPSYVHiMXxtDMRxDHSJ4w7VagfosLfXVpE2zid4lXdBp/MLOTv7MhU0Nm1joz/YvH46QeQIyCZYJsINAvqK7vHjn1Ctvkuv10XVe9/bGpCUlMH+LhIiEgIv9QkbVX4iEMewuvqr/nNA9Z13anz++XqBBSiOAMWY1qQDHsVNC2g2PfM/xlqLajChoiuCjgxgcO+Unqam/G9arawpf/HFGiJr6V2RD+iky7IUMgR409OdnRrweqropk4yjOA2pWfTYKfLykonUzOO14DVMT4ArO2kiZN0CNMhf4t67TW5NQKbJRwRLTk87AHDomYdqPpaBf9u025fl206M0hJcyzSbF4D/0TEjiQkZo/B81uQ2R4BNjAG8vWApv6jzSuvzIYAAOp19521vycIDE6UxEMluVGyiq9I+RUjq+kH2V9rX05/GxcFtnwCtUwW+gYB0mzGCoaTkw/o9T6kUqkQhuFQCfolCFzx4sWYfOU3SeotT9Mb87IfZs7A/XdXaYVS6b2iOEAFLEdH7+nu7p8Jgu9g7QYiNaCaZnyq/eIEzUDMOHETptdhWmelqK10QI6A4VDb2vuEY4JVtwQGllPCAnKf7k1JQeTk5BHwaJKHKQgHByGVSsjlZcDKytcwRun1vk8QvF+o6NxgbsbzIlu3N6oDyykRqt+qBTLHW8NCZyiU9YQJKM6T99LfnHnu7w/C3tyGCjS9yP0xQiibDiuRDYIJ5PA0R0431uHBQcjhYQy8Oja7C/mSVnWV8RkhC5TOBsHsM0I6XFhbc5+q42bSH3DkSdq/po7VZnYb1QQRizEG1b8BpZQgzDonWASR+7fW8ZIWoNlMFAzd7u/odv9IGFYJw8Fu43ahKr1exPp6pGDKHo7OJSPUR7PpPbzfzvIVHUAQOAvY3tY0IEPOzrrAD/Thw0+ABqqv43abf2DMn+To6A9QfguEeRMwWL8bt2r6JMkIocxO9OmnHwEfFTVyl2P4uS0Bf0iZpsQ2gMk0/Y0f3U6kjUZ/+9RGI9B6fSaTN/cXJPTNN1cx5gnGPEijt/w2k+QNOT39e5nzvbtg/k7Q2jVgreBX7yN6pGJo0ZgnAW6mK5V7wEtjNb1Ih1qttKa/C+ZvASLrGBPgU1j5aKcnRQvH/Ajwqs7azTEHG34JtLm4KK3p74L5EeBjc2PGa3pHzgvOz7tz68sYLMIJ+iiw2AKglW6Zd361blosIhTeKnxZwhtFVtMvFItwghZ3PlCU10tQvQBKveFxV8yPAH++YO0jkiTBmOpIbjEGJN0hPgZKa/q7YK4N9t8c2939HmH4W0QeZCsoWPsbjo5+yfBx2AIxd8b7JBwcbAHfxdo3UL2HMZ8Rx3+R09Ojr8L5LRQKhUdrU74/MHMsbM31X7YYRrNpvwqzX2KJJZbw+C+MKWZSKvM7jgAAAABJRU5ErkJggg==';
+var COUNTRY_CODES=[['+84','VN'],['+1','US'],['+65','SG'],['+81','JP'],['+82','KR'],['+60','MY'],['+66','TH'],['+62','ID'],['+63','PH'],['+91','IN'],['+852','HK'],['+971','AE'],['+44','UK'],['+61','AU'],['+86','CN'],['+33','FR'],['+49','DE'],['+47','NO'],['+64','NZ'],['+27','ZA']];
+var PAGE_SIZE = 20;
+
+var state = { session:null, profile:null, tab:'dashboard', authMode:'login', sidebarOpen:false, pendingLoginEmail:'',
+  pipeQ:'', pipeSector:'all', pipeStatus:'all', pipePage:1,
+  invQ:'', invType:'all', invPage:1, usersPage:1, auditPage:1, auditQ:'', auditAction:'all',
+  cache:{ pipeline:null, investors:null, profiles:null, myHistory:null, audit:null, myAccessReq:undefined, accessRequests:null } };
+
+function esc(s){ return (s===undefined||s===null)?'':String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function fmtDate(iso){ try{ return new Date(iso).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}); }catch(e){ return iso; } }
+function todayDMY(){ var d=new Date(); var dd=String(d.getDate()).padStart(2,'0'); var mm=String(d.getMonth()+1).padStart(2,'0'); var yy=String(d.getFullYear()).slice(-2); return dd+'-'+mm+'-'+yy; }
+function nextId(list, prefix){
+  var max=0;
+  list.forEach(function(x){ var m=(x.id||'').match(new RegExp('^'+prefix+'(\\\\d+)$')); if(m) max=Math.max(max, parseInt(m[1],10)); });
+  return prefix + String(max+1).padStart(5,'0');
+}
+function roleLabel(r){ return r==='admin'?'Admin':'Visitor'; }
+function roleBadgeColor(r){ return r==='admin'?'var(--red-600)':'#1D6E4B'; }
+
+function toast(msg, kind){
+  var host = document.getElementById('gi-toasts');
+  if(!host){ host=document.createElement('div'); host.id='gi-toasts'; host.style.cssText='position:fixed;top:18px;right:18px;z-index:200;display:flex;flex-direction:column;gap:8px;'; document.body.appendChild(host); }
+  var t = document.createElement('div');
+  var c = kind==='error'?['var(--red-50)','var(--red-700)']:['var(--green-bg)','var(--green)'];
+  t.style.cssText='background:'+c[0]+';color:'+c[1]+';padding:11px 16px;border-radius:8px;font-size:13px;font-weight:600;box-shadow:var(--shadow-md);max-width:320px;';
+  t.textContent = msg;
+  host.appendChild(t);
+  setTimeout(function(){ t.style.opacity='0'; t.style.transition='opacity .3s'; setTimeout(function(){t.remove();},300); }, 3400);
+}
+function showResendLink(email){
+  var old = document.getElementById('gi-resend-box'); if(old) old.remove();
+  var box = document.createElement('div');
+  box.id = 'gi-resend-box';
+  box.style.cssText = 'margin-top:12px;padding:10px 12px;background:var(--gray-100);border-radius:8px;font-size:12.5px;color:var(--slate);text-align:center;';
+  box.innerHTML = 'Didn\'t get the email? <button id="gi-resend-btn" style="background:none;border:none;color:var(--red-600);font-weight:600;text-decoration:underline;cursor:pointer;font-size:12.5px;">Resend confirmation email</button>';
+  var loginBtn = document.getElementById('btn-login');
+  if(loginBtn && loginBtn.parentNode) loginBtn.parentNode.insertBefore(box, loginBtn.nextSibling);
+  document.getElementById('gi-resend-btn').onclick = async function(){
+    var btn = document.getElementById('gi-resend-btn');
+    btn.textContent = 'Sending...';
+    var {error} = await sb.auth.resend({ type:'signup', email: email });
+    if(error){ toast(error.message,'error'); btn.textContent='Resend confirmation email'; return; }
+    toast('Confirmation email sent. Please check your inbox.');
+    box.remove();
+  };
+}
+
+/* ---------------- NOT CONFIGURED SCREEN ---------------- */
+function notConfiguredScreen(){
+  return '<div style="max-width:560px;margin:70px auto;padding:0 20px;font-family:var(--font-body);">'+
+    '<div class="card" style="padding:32px;">'+
+      '<div class="mono" style="font-size:11px;color:var(--red-600);font-weight:600;letter-spacing:.1em;">SETUP REQUIRED</div>'+
+      '<h1 style="font-size:20px;margin:8px 0 12px;">Supabase not configured</h1>'+
+      '<p style="font-size:13.5px;color:var(--slate);line-height:1.7;">Open <code style="background:var(--gray-100);padding:2px 6px;border-radius:4px;">index.html</code>, find the <code style="background:var(--gray-100);padding:2px 6px;border-radius:4px;">SUPABASE_URL</code> and <code style="background:var(--gray-100);padding:2px 6px;border-radius:4px;">SUPABASE_ANON_KEY</code> lines near the top, fill in the values from Supabase Dashboard &rarr; Project Settings &rarr; API, then save and redeploy.</p>'+
+    '</div>'+
+  '</div>';
+}
+
+/* ---------------- AUTH SCREEN ---------------- */
+function inputField(label,id,type,placeholder,required){
+  return '<div style="margin-bottom:13px;">'+
+    '<label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:5px;">'+label+(required?' <span style="color:var(--red-500);">*</span>':' <span style="color:var(--slate-2);font-weight:400;">(optional)</span>')+'</label>'+
+    '<input id="'+id+'" type="'+type+'" placeholder="'+placeholder+'" style="width:100%;padding:7px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:14px;background:#fff;" />'+
+  '</div>';
+}
+function passwordField(label,id,placeholder,required){
+  return '<div style="margin-bottom:13px;">'+
+    '<label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:5px;">'+label+(required?' <span style="color:var(--red-500);">*</span>':'')+'</label>'+
+    '<div style="position:relative;">'+
+      '<input id="'+id+'" type="password" placeholder="'+placeholder+'" style="width:100%;padding:7px 36px 7px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:14px;background:#fff;" />'+
+      '<button type="button" data-toggle-pass="'+id+'" title="Show/hide password" style="position:absolute;right:5px;top:50%;transform:translateY(-50%);background:none;border:none;padding:5px;cursor:pointer;color:var(--slate-2);display:flex;align-items:center;">'+eyeIcon(false)+'</button>'+
+    '</div>'+
+  '</div>';
+}
+function eyeIcon(open){
+  return open?
+    '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.94 10.94 0 0 1 12 20c-7 0-11-8-11-8a18.9 18.9 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.9 18.9 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>'
+    :
+    '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>';
+}
+function bindPasswordToggles(container){
+  (container||root).querySelectorAll('[data-toggle-pass]').forEach(function(btn){
+    btn.onclick=function(){
+      var input = document.getElementById(btn.getAttribute('data-toggle-pass'));
+      if(!input) return;
+      var showing = input.type==='text';
+      input.type = showing? 'password':'text';
+      btn.innerHTML = eyeIcon(!showing);
+    };
+  });
+}
+function loginForm(){
+  return '<h2 style="font-size:19px;margin-bottom:4px;">Sign in</h2>'+
+  '<p style="font-size:13px;color:var(--slate);margin:0 0 18px;">Use your registered email.</p>'+
+  inputField('Email','li-email','email','you@company.com',true)+
+  passwordField('Password','li-pass','••••••••',true)+
+  '<button id="btn-login" class="btn btn-primary" style="width:100%;margin-top:6px;">Sign in</button>'+
+  '<button id="btn-forgot" style="width:100%;background:none;border:none;color:var(--slate);font-size:12.5px;margin-top:12px;text-decoration:underline;">Forgot password?</button>';
+}
+function forgotForm(){
+  return '<button id="btn-back-login" style="background:none;border:none;color:var(--slate);font-size:12.5px;margin-bottom:14px;">&larr; Back to sign in</button>'+
+  '<h2 style="font-size:19px;margin-bottom:4px;">Reset your password</h2>'+
+  '<p style="font-size:13px;color:var(--slate);margin:0 0 18px;">Enter your account email and we will send a password reset link.</p>'+
+  inputField('Email','fg-email','email','you@company.com',true)+
+  '<button id="btn-send-reset" class="btn btn-primary" style="width:100%;margin-top:6px;">Send reset link</button>';
+}
+function recoveryForm(){
+  return '<h2 style="font-size:19px;margin-bottom:4px;">Set a new password</h2>'+
+  '<p style="font-size:13px;color:var(--slate);margin:0 0 18px;">You followed a password reset link. Choose a new password below.</p>'+
+  passwordField('New password','rc-pass','At least 8 characters',true)+
+  passwordField('Confirm new password','rc-pass2','Repeat password',true)+
+  '<button id="btn-set-newpass" class="btn btn-primary" style="width:100%;margin-top:6px;">Set new password</button>';
+}
+function mfaVerifyForm(){
+  return '<div style="width:44px;height:44px;border-radius:50%;background:var(--red-50);color:var(--red-600);display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-size:19px;">&#128274;</div>'+
+  '<h2 style="font-size:19px;margin-bottom:4px;">Two-factor verification</h2>'+
+  '<p style="font-size:13px;color:var(--slate);margin:0 0 18px;">Enter the 6-digit code from your authenticator app.</p>'+
+  inputField('Verification code','mfa-code','text','123456',true)+
+  '<button id="btn-mfa-verify" class="btn btn-primary" style="width:100%;margin-top:6px;">Verify</button>'+
+  '<button id="btn-mfa-cancel" style="width:100%;background:none;border:none;color:var(--slate);font-size:12.5px;margin-top:12px;">Cancel and sign out</button>';
+}
+function registerForm(){
+  return '<h2 style="font-size:19px;margin-bottom:4px;">Create account</h2>'+
+  '<p style="font-size:13px;color:var(--slate);margin:0 0 18px;">The first account automatically becomes Admin. All other accounts can sign in right after verifying their email.</p>'+
+  inputField('Full name','re-name','text','Jane Doe',true)+
+  inputField('Company','re-company','text','Company name',false)+
+  inputField('Title','re-title','text','e.g. Investment Advisor',false)+
+  '<div style="margin-bottom:13px;"><label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:5px;">Phone number <span style="color:var(--red-500);">*</span></label>'+
+  '<div style="display:flex;gap:6px;"><select id="re-cc" style="padding:10px 6px;border:1px solid var(--gray-300);border-radius:8px;font-size:13px;background:#fff;width:96px;">'+
+    COUNTRY_CODES.map(function(c){return '<option value="'+c[0]+'"'+(c[0]==='+84'?' selected':'')+'>'+c[0]+' '+c[1]+'</option>';}).join('')+
+  '</select><input id="re-phone" type="tel" placeholder="912 345 678" style="flex:1;padding:7px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:14px;" /></div></div>'+
+  inputField('Email','re-email','email','you@company.com',true)+
+  passwordField('Password','re-pass','At least 8 characters',true)+
+  passwordField('Confirm password','re-pass2','Repeat password',true)+
+  '<button id="btn-register" class="btn btn-primary" style="width:100%;margin-top:6px;">Create account</button>';
+}
+function authScreen(){
+  var mode = state.authMode;
+  var showTabs = mode==='login' || mode==='register';
+  var formHtml = mode==='register'? registerForm() : mode==='forgot'? forgotForm() : mode==='recovery'? recoveryForm() : mode==='mfa'? mfaVerifyForm() : loginForm();
+  var features = ['Real-time deal Pipeline & Investor database','Role-based access for Admin & Visitor accounts','Full activity log & audit trail'];
+  return '<div style="min-height:100vh;display:flex;flex-wrap:wrap;">'+
+    '<div class="auth-panel" style="background:linear-gradient(155deg,var(--red-600),var(--red-900));position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;padding:56px 48px;color:#fff;min-height:480px;">'+
+      '<img src="'+LOGO_DATA_URI+'" alt="" style="position:absolute;right:-60px;bottom:-60px;width:340px;height:340px;opacity:.10;filter:brightness(0) invert(1);pointer-events:none;" />'+
+      '<div style="position:relative;">'+
+        '<div style="width:46px;height:46px;background:#fff;border-radius:11px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;box-shadow:0 4px 14px rgba(0,0,0,.18);"><img src="'+LOGO_DATA_URI+'" alt="Growce Invest" style="width:29px;height:29px;" /></div>'+
+        '<div class="mono" style="font-size:12px;letter-spacing:.16em;opacity:.9;">GROWCE INVEST</div>'+
+        '<div style="height:2px;width:36px;background:rgba(255,255,255,.55);margin:14px 0 26px;"></div>'+
+        '<h1 style="font-size:34px;line-height:1.22;font-weight:700;letter-spacing:-.01em;">Deal Flow<br/>&amp; Investor Ledger</h1>'+
+        '<p style="margin-top:18px;font-size:14.5px;max-width:360px;opacity:.92;line-height:1.6;">The internal platform for managing the deal Pipeline and Investor relationships end to end.</p>'+
+        '<div style="margin-top:32px;display:flex;flex-direction:column;gap:13px;">'+
+          features.map(function(f){ return '<div style="display:flex;align-items:flex-start;gap:10px;font-size:13.5px;opacity:.95;"><span style="flex-shrink:0;width:18px;height:18px;border-radius:50%;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;margin-top:1px;">&#10003;</span>'+f+'</div>'; }).join('')+
+        '</div>'+
+      '</div>'+
+      '<div class="mono" style="position:relative;font-size:11px;opacity:.75;border-top:1px solid rgba(255,255,255,.25);padding-top:14px;">Secured by Supabase Auth &middot; Row-Level Security</div>'+
+    '</div>'+
+    '<div class="auth-panel" style="background:var(--gray-50);display:flex;align-items:center;justify-content:center;padding:40px 24px;">'+
+      '<div style="width:100%;max-width:380px;background:#fff;border:1px solid var(--gray-200);border-radius:16px;box-shadow:var(--shadow-md);padding:32px 30px;">'+
+        (showTabs? '<div style="display:flex;gap:4px;background:var(--gray-100);padding:4px;border-radius:10px;margin-bottom:24px;">'+
+          '<button data-authmode="login" style="flex:1;padding:9px;border:none;border-radius:7px;font-weight:600;font-size:13px;transition:all .15s ease;'+(mode==='login'?'background:#fff;color:var(--red-600);box-shadow:var(--shadow-sm);':'background:transparent;color:var(--slate);')+'">Sign in</button>'+
+          '<button data-authmode="register" style="flex:1;padding:9px;border:none;border-radius:7px;font-weight:600;font-size:13px;transition:all .15s ease;'+(mode==='register'?'background:#fff;color:var(--red-600);box-shadow:var(--shadow-sm);':'background:transparent;color:var(--slate);')+'">Sign up</button>'+
+        '</div>' : '')+
+        formHtml+
+      '</div>'+
+    '</div>'+
+  '</div>';
+}
+function bindAuth(){
+  root.querySelectorAll('[data-authmode]').forEach(function(b){ b.onclick=function(){ state.authMode=b.getAttribute('data-authmode'); render(); }; });
+  bindPasswordToggles();
+
+  var btnLogin = root.querySelector('#btn-login');
+  if(btnLogin) btnLogin.onclick=async function(){
+    var email=(root.querySelector('#li-email').value||'').trim().toLowerCase();
+    var pass=root.querySelector('#li-pass').value||'';
+    if(!email||!pass){ toast('Please enter both email and password.','error'); return; }
+    btnLogin.textContent='Signing in...'; btnLogin.disabled=true;
+    var {data,error} = await sb.auth.signInWithPassword({email:email,password:pass});
+    btnLogin.textContent='Sign in'; btnLogin.disabled=false;
+    if(error){
+      if(/confirm/i.test(error.message)){
+        toast('Please verify your email before signing in. Check your inbox for the confirmation link.','error');
+        showResendLink(email);
+      } else {
+        toast('Incorrect email or password.','error');
+      }
+      return;
+    }
+    var {data:aal} = await sb.auth.mfa.getAuthenticatorAssuranceLevel();
+    if(aal && aal.nextLevel==='aal2' && aal.nextLevel!==aal.currentLevel){
+      state.pendingLoginEmail = email;
+      state.authMode='mfa';
+      render();
+      return;
+    }
+    await sb.from('login_history').insert({user_id:data.user.id, email:email});
+    await afterAuth();
+  };
+  var btnMfaVerify = root.querySelector('#btn-mfa-verify');
+  if(btnMfaVerify) btnMfaVerify.onclick=async function(){
+    var code=(root.querySelector('#mfa-code').value||'').trim();
+    if(!code){ toast('Enter the 6-digit code.','error'); return; }
+    btnMfaVerify.textContent='Verifying...'; btnMfaVerify.disabled=true;
+    var {data:factors} = await sb.auth.mfa.listFactors();
+    var totp = factors && factors.totp && factors.totp[0];
+    if(!totp){ toast('No authenticator found on this account.','error'); btnMfaVerify.textContent='Verify'; btnMfaVerify.disabled=false; return; }
+    var {data:challenge, error:chErr} = await sb.auth.mfa.challenge({factorId:totp.id});
+    if(chErr){ toast(chErr.message,'error'); btnMfaVerify.textContent='Verify'; btnMfaVerify.disabled=false; return; }
+    var {data:verified, error:verErr} = await sb.auth.mfa.verify({factorId:totp.id, challengeId:challenge.id, code:code});
+    btnMfaVerify.textContent='Verify'; btnMfaVerify.disabled=false;
+    if(verErr){ toast('Invalid or expired code.','error'); return; }
+    var {data:{session}} = await sb.auth.getSession();
+    if(session) await sb.from('login_history').insert({user_id:session.user.id, email:state.pendingLoginEmail||session.user.email});
+    state.authMode='login';
+    await afterAuth();
+  };
+  var btnMfaCancel = root.querySelector('#btn-mfa-cancel');
+  if(btnMfaCancel) btnMfaCancel.onclick=async function(){ await sb.auth.signOut(); state.authMode='login'; render(); };
+  var btnForgot = root.querySelector('#btn-forgot');
+  if(btnForgot) btnForgot.onclick=function(){ state.authMode='forgot'; render(); };
+  var btnBackLogin = root.querySelector('#btn-back-login');
+  if(btnBackLogin) btnBackLogin.onclick=function(){ state.authMode='login'; render(); };
+  var btnSendReset = root.querySelector('#btn-send-reset');
+  if(btnSendReset) btnSendReset.onclick=async function(){
+    var email=(root.querySelector('#fg-email').value||'').trim().toLowerCase();
+    if(!email){ toast('Please enter your email.','error'); return; }
+    btnSendReset.textContent='Sending...'; btnSendReset.disabled=true;
+    await sb.auth.resetPasswordForEmail(email, { redirectTo: window.location.origin + window.location.pathname });
+    btnSendReset.textContent='Send reset link'; btnSendReset.disabled=false;
+    toast('If that email exists, a password reset link has been sent. Check your inbox.');
+    state.authMode='login'; render();
+  };
+  var btnSetNewPass = root.querySelector('#btn-set-newpass');
+  if(btnSetNewPass) btnSetNewPass.onclick=async function(){
+    var p1 = root.querySelector('#rc-pass').value||'';
+    var p2 = root.querySelector('#rc-pass2').value||'';
+    if(p1.length<8){ toast('Password must be at least 8 characters.','error'); return; }
+    if(p1!==p2){ toast('Passwords do not match.','error'); return; }
+    btnSetNewPass.textContent='Saving...'; btnSetNewPass.disabled=true;
+    var {error} = await sb.auth.updateUser({ password: p1 });
+    btnSetNewPass.textContent='Set new password'; btnSetNewPass.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    var {data:aal} = await sb.auth.mfa.getAuthenticatorAssuranceLevel();
+    if(aal && aal.nextLevel==='aal2' && aal.nextLevel!==aal.currentLevel){
+      toast('Password updated. Please verify your 2FA code to continue.');
+      state.authMode='mfa';
+      render();
+      return;
+    }
+    toast('Password updated. You are now signed in.');
+    state.authMode='login';
+    await afterAuth();
+  };
+  var btnReg = root.querySelector('#btn-register');
+  if(btnReg) btnReg.onclick=async function(){
+    var name=(root.querySelector('#re-name').value||'').trim();
+    var company=(root.querySelector('#re-company').value||'').trim();
+    var title=(root.querySelector('#re-title').value||'').trim();
+    var cc=root.querySelector('#re-cc').value;
+    var phone=(root.querySelector('#re-phone').value||'').trim();
+    var email=(root.querySelector('#re-email').value||'').trim().toLowerCase();
+    var pass=root.querySelector('#re-pass').value||'';
+    var pass2=root.querySelector('#re-pass2').value||'';
+    if(!name||!phone||!email||!pass){ toast('Please fill in all required fields.','error'); return; }
+    if(pass.length<8){ toast('Password must be at least 8 characters.','error'); return; }
+    if(pass!==pass2){ toast('Passwords do not match.','error'); return; }
+    btnReg.textContent='Creating...'; btnReg.disabled=true;
+    var {data,error} = await sb.auth.signUp({ email:email, password:pass, options:{ data:{ full_name:name, company:company, title:title, phone_cc:cc, phone:phone } } });
+    btnReg.textContent='Create account'; btnReg.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    if(data.session){
+      await sb.from('login_history').insert({user_id:data.user.id, email:email});
+      toast('Account created successfully!');
+      await afterAuth();
+    } else {
+      toast('Sign up successful! Check your email to confirm your account, then sign in.');
+      state.authMode='login'; render();
+    }
+  };
+}
+
+/* ---------------- DATA LAYER ---------------- */
+async function loadProfile(userId){
+  var {data} = await sb.from('profiles').select('*').eq('id', userId).single();
+  return data;
+}
+async function fetchPipeline(force){
+  if(state.cache.pipeline && !force) return state.cache.pipeline;
+  var {data,error} = await sb.from('pipeline').select('*').order('created_at',{ascending:false});
+  if(error){ toast('Failed to load Pipeline: '+error.message,'error'); return []; }
+  state.cache.pipeline = data||[]; return state.cache.pipeline;
+}
+async function fetchInvestors(force){
+  if(state.cache.investors && !force) return state.cache.investors;
+  var {data,error} = await sb.from('investor_needs').select('*').order('created_at',{ascending:false});
+  if(error){ toast('Failed to load Investor List: '+error.message,'error'); return []; }
+  state.cache.investors = data||[]; return state.cache.investors;
+}
+async function fetchProfiles(force){
+  if(state.cache.profiles && !force) return state.cache.profiles;
+  var {data,error} = await sb.from('profiles').select('*').order('created_at');
+  if(error){ toast('Failed to load users: '+error.message,'error'); return []; }
+  state.cache.profiles = data||[]; return state.cache.profiles;
+}
+async function fetchMyHistory(force){
+  if(state.cache.myHistory && !force) return state.cache.myHistory;
+  var {data} = await sb.from('login_history').select('*').eq('user_id', state.profile.id).order('created_at',{ascending:false});
+  state.cache.myHistory = data||[]; return state.cache.myHistory;
+}
+async function fetchUserHistory(userId){
+  var {data} = await sb.from('login_history').select('*').eq('user_id', userId).order('created_at',{ascending:false});
+  return data||[];
+}
+async function fetchAuditTrail(force){
+  if(state.cache.audit && !force) return state.cache.audit;
+  var loginRes = await sb.from('login_history').select('*').order('created_at',{ascending:false}).limit(500);
+  var actRes = await sb.from('activity_log').select('*').order('created_at',{ascending:false}).limit(500);
+  var logins = (loginRes.data||[]).map(function(h){ return {user_id:h.user_id, email:h.email, action:'Signed in', details:'', created_at:h.created_at}; });
+  var acts = actRes.data||[];
+  if(loginRes.error && actRes.error){ toast('Failed to load audit trail.','error'); return []; }
+  var combined = logins.concat(acts);
+  combined.sort(function(a,b){ return new Date(b.created_at) - new Date(a.created_at); });
+  state.cache.audit = combined;
+  return state.cache.audit;
+}
+async function logActivity(action, details){
+  try{
+    if(!state.session) return;
+    await sb.from('activity_log').insert({ user_id: state.session.user.id, email: state.profile? state.profile.email : state.session.user.email, action: action, details: details||'' });
+    state.cache.audit = null;
+  }catch(e){ /* non-critical, ignore */ }
+}
+async function fetchAssignedUserIds(dealId){
+  var {data} = await sb.from('deal_assignments').select('user_id').eq('deal_id', dealId);
+  return (data||[]).map(function(r){return r.user_id;});
+}
+async function fetchMyAccessRequest(force){
+  if(state.cache.myAccessReq!==undefined && !force) return state.cache.myAccessReq;
+  var {data} = await sb.from('access_requests').select('*').eq('user_id', state.profile.id).order('created_at',{ascending:false}).limit(1);
+  state.cache.myAccessReq = (data&&data[0]) || null;
+  return state.cache.myAccessReq;
+}
+async function fetchAllAccessRequests(force){
+  if(state.cache.accessRequests && !force) return state.cache.accessRequests;
+  var {data,error} = await sb.from('access_requests').select('*').order('created_at',{ascending:false});
+  if(error){ toast('Failed to load access requests: '+error.message,'error'); return []; }
+  state.cache.accessRequests = data||[];
+  return state.cache.accessRequests;
+}
+async function submitAccessRequest(message){
+  var {error} = await sb.from('access_requests').insert({ user_id: state.profile.id, email: state.profile.email, full_name: state.profile.full_name, message: message||'' });
+  if(error){ toast(error.message,'error'); return; }
+  state.cache.myAccessReq = undefined;
+  logActivity('Requested Pipeline access', message||'');
+  toast('Access request sent to Admin.');
+}
+async function resolveAccessRequest(id, status){
+  var {error} = await sb.from('access_requests').update({ status:status, resolved_at:new Date().toISOString(), resolved_by: state.session.user.id }).eq('id', id);
+  if(error){ toast(error.message,'error'); return; }
+  state.cache.accessRequests = null;
+  logActivity(status==='approved'?'Approved access request':'Denied access request', 'Request #'+id);
+  toast('Request '+status+'.');
+}
+
+/* ---------------- PAGINATION HELPERS ---------------- */
+function paginate(list, page){
+  var totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+  page = Math.min(Math.max(1, page), totalPages);
+  var start = (page-1)*PAGE_SIZE;
+  return { items: list.slice(start, start+PAGE_SIZE), page: page, totalPages: totalPages, total: list.length, start: list.length? start+1:0, end: Math.min(start+PAGE_SIZE, list.length) };
+}
+function paginationBar(info, key){
+  if(info.total===0) return '';
+  var pages = [];
+  var p = info.page, tp = info.totalPages;
+  var range = [];
+  for(var i=1;i<=tp;i++){ if(i===1||i===tp||Math.abs(i-p)<=1) range.push(i); else if(range[range.length-1]!=='...') range.push('...'); }
+  range.forEach(function(n){
+    if(n==='...') pages.push('<span style="padding:0 4px;color:var(--slate-2);font-size:12.5px;">&hellip;</span>');
+    else pages.push('<button class="pagebtn'+(n===p?' active':'')+'" data-page="'+key+':'+n+'">'+n+'</button>');
+  });
+  return '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:4px 4px 0;">'+
+    '<div style="font-size:12.5px;color:var(--slate);">Showing '+info.start+'&ndash;'+info.end+' of '+info.total+'</div>'+
+    '<div style="display:flex;gap:4px;align-items:center;">'+
+      '<button class="pagebtn" data-page="'+key+':'+(p-1)+'" '+(p<=1?'disabled':'')+'>&larr;</button>'+
+      pages.join('')+
+      '<button class="pagebtn" data-page="'+key+':'+(p+1)+'" '+(p>=tp?'disabled':'')+'>&rarr;</button>'+
+    '</div>'+
+  '</div>';
+}
+function bindPagination(onChange){
+  root.querySelectorAll('[data-page]').forEach(function(b){
+    if(b.disabled) return;
+    b.onclick=function(){
+      var parts = b.getAttribute('data-page').split(':');
+      onChange(parts[0], parseInt(parts[1],10));
+    };
+  });
+}
+
+/* ---------------- RESIZABLE COLUMNS ---------------- */
+var COL_DEFAULTS = {
+  pipe: [85,100,85,130,130,90,65,255,100,100,120,80,80,80,80],
+  inv: [85,85,140,110,65,130,255,200,110,100,100,255],
+  users: [140,200,140,140,120,130,120,120,90]
+};
+function getColWidths(key){
+  if(!state.colWidths) state.colWidths = {};
+  if(!state.colWidths[key]) state.colWidths[key] = COL_DEFAULTS[key].slice();
+  return state.colWidths[key];
+}
+function colgroupHtml(widths){
+  return '<colgroup>'+widths.map(function(w){return '<col style="width:'+w+'px;">';}).join('')+'</colgroup>';
+}
+function makeResizableTable(tableId, key){
+  var table = root.querySelector('#'+tableId);
+  if(!table) return;
+  var widths = getColWidths(key);
+  var ths = table.querySelectorAll('thead th');
+  ths.forEach(function(th, idx){
+    if(idx>=ths.length-1) return;
+    var inner = th.querySelector('.th-inner') || th;
+    var handle = document.createElement('div');
+    handle.className='col-resizer';
+    inner.appendChild(handle);
+    handle.addEventListener('mousedown', function(e){
+      e.preventDefault(); e.stopPropagation();
+      handle.classList.add('active');
+      var startX = e.clientX;
+      var col = table.querySelectorAll('colgroup col')[idx];
+      var startWidth = parseInt(col.style.width,10) || 100;
+      function onMove(ev){
+        var newW = Math.max(48, startWidth + (ev.clientX-startX));
+        col.style.width = newW+'px';
+        widths[idx] = newW;
+        table.style.width = widths.reduce(function(a,b){return a+b;},0)+'px';
+      }
+      function onUp(){ handle.classList.remove('active'); document.removeEventListener('mousemove', onMove); document.removeEventListener('mouseup', onUp); }
+      document.addEventListener('mousemove', onMove);
+      document.addEventListener('mouseup', onUp);
+    });
+  });
+}
+
+/* ---------------- APP SHELL ---------------- */
+function loadingBlock(rows){
+  var out=''; for(var i=0;i<(rows||4);i++){ out+='<div class="skel" style="height:38px;margin-bottom:8px;border-radius:8px;"></div>'; } return out;
+}
+
+function appShell(bodyHtml){
+  var u = state.profile;
+  var nav = [];
+  if(u.role==='admin') nav.push({k:'dashboard', label:'Dashboard'});
+  nav.push({k:'pipeline', label:'Pipeline'}, {k:'investors', label:'Investors'});
+  if(u.role==='admin'){
+    var pendingReqCount = (state.cache.accessRequests||[]).filter(function(r){return r.status==='pending';}).length;
+    nav.push({k:'admin-users', label:'Users'}, {k:'access-requests', label:'Access Requests'+(pendingReqCount?' ('+pendingReqCount+')':'')}, {k:'audit-trail', label:'Activities Log'});
+  }
+  nav.push({k:'profile', label:'My Profile'});
+
+  return '<div id="gi-overlay" class="'+(state.sidebarOpen?'show':'')+'"></div>'+
+  '<div style="display:flex;min-height:100vh;">'+
+    '<div id="gi-sidebar" class="'+(state.sidebarOpen?'open':'')+'" style="width:224px;flex-shrink:0;background:#fff;border-right:1px solid var(--gray-200);color:var(--ink);display:flex;flex-direction:column;padding:24px 14px;">'+
+      '<div style="padding:0 8px 22px;">'+
+        '<img src="'+LOGO_DATA_URI+'" alt="Growce Invest" style="width:34px;height:34px;display:block;margin-bottom:8px;" />'+
+        '<div class="mono" style="font-size:11px;letter-spacing:.14em;color:var(--red-600);">GROWCE INVEST</div>'+
+        '<div style="font-family:var(--font-head);font-weight:700;font-size:16.5px;margin-top:3px;color:var(--ink);">Deal Ledger</div>'+
+      '</div>'+
+      '<div style="display:flex;flex-direction:column;gap:2px;">'+
+        nav.map(function(n){
+          var active = state.tab===n.k;
+          return '<button data-nav="'+n.k+'" class="nav-item'+(active?' active':'')+'" style="width:100%;">'+n.label+'</button>';
+        }).join('')+
+      '</div>'+
+      '<div style="margin-top:auto;padding-top:16px;border-top:1px solid var(--gray-150);">'+
+        '<div style="font-size:12.5px;font-weight:600;color:var(--ink);">'+esc(u.full_name||u.email)+'</div>'+
+        '<div style="font-size:11px;color:'+roleBadgeColor(u.role)+';font-weight:600;margin-top:2px;">'+roleLabel(u.role)+'</div>'+
+        '<button id="btn-logout" style="margin-top:10px;width:100%;padding:8px;background:var(--gray-100);color:var(--ink);border:none;border-radius:7px;font-size:12.5px;font-weight:600;">Sign out</button>'+
+      '</div>'+
+    '</div>'+
+    '<div style="flex:1;overflow:auto;background:var(--gray-50);min-width:0;">'+
+      '<div id="gi-hamburger" style="display:none;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid var(--gray-200);background:#fff;position:sticky;top:0;z-index:30;">'+
+        '<button id="btn-hamburger" style="background:none;border:none;font-size:20px;padding:4px;">&#9776;</button>'+
+        '<div class="mono" style="font-size:12px;color:var(--red-600);font-weight:600;">GROWCE INVEST</div>'+
+      '</div>'+
+      '<div style="max-width:none;padding:16px 22px 20px;" id="gi-body">'+bodyHtml+'</div>'+
+    '</div>'+
+  '</div>'+
+  '<div id="gi-modal-holder"></div>';
+}
+
+function disabledScreen(u){
+  return '<div class="card" style="max-width:460px;margin:80px auto;text-align:center;padding:40px 32px;">'+
+    '<div style="width:44px;height:44px;border-radius:50%;background:var(--red-50);color:var(--red-600);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:20px;font-weight:700;">!</div>'+
+    '<h2 style="font-size:17px;margin-bottom:8px;">Account disabled</h2>'+
+    '<p style="font-size:13.5px;color:var(--slate);line-height:1.6;">Hi '+esc(u.full_name)+', your account has been disabled by an Admin. Contact your Admin if you believe this is a mistake.</p>'+
+  '</div>';
+}
+
+function statCard(label, value, sub){
+  return '<div class="card" style="border-left:3px solid var(--red-600);padding:16px 18px;">'+
+    '<div style="font-size:12px;color:var(--slate);font-weight:600;">'+label+'</div>'+
+    '<div style="font-family:var(--font-head);font-size:27px;font-weight:700;margin-top:4px;">'+value+'</div>'+
+    (sub?'<div style="font-size:11.5px;color:var(--slate-2);margin-top:3px;">'+sub+'</div>':'')+
+  '</div>';
+}
+
+/* ---------------- VIEWS ---------------- */
+async function renderDashboard(){
+  var u = state.profile;
+  setBody('<div class="skel" style="height:28px;width:200px;margin-bottom:22px;"></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;">'+
+    [1,2,3,4].map(function(){ return '<div class="card" style="padding:16px 18px;"><div class="skel" style="height:38px;"></div></div>'; }).join('')+
+  '</div>');
+  var pipeline = await fetchPipeline();
+  var investors = await fetchInvestors();
+  var profiles = await fetchProfiles();
+  var history = await fetchMyHistory();
+
+  var statusCounts = {};
+  pipeline.forEach(function(d){ statusCounts[d.status] = (statusCounts[d.status]||0)+1; });
+  var statusOrder = ['Open','In Progress','On Hold','Closed'];
+  var disabledUsers = profiles.filter(function(x){return x.status==='disabled';});
+  var activeDeals = (statusCounts['In Progress']||0) + (statusCounts['Open']||0);
+  var closedDeals = statusCounts['Closed']||0;
+
+  var cards = statCard('Total Pipeline deals', pipeline.length)+
+    statCard('Active deals', activeDeals, 'Open + In Progress')+
+    statCard('Closed deals', closedDeals)+
+    statCard('Investor profiles', investors.length)+
+    statCard('Team members', profiles.length, disabledUsers.length? disabledUsers.length+' disabled' : 'All active');
+
+  var statusBar = statusOrder.map(function(s){
+    var n = statusCounts[s]||0;
+    return '<div style="display:flex;align-items:center;gap:10px;padding:6px 0;">'+
+      '<div style="width:110px;flex-shrink:0;">'+statusPill(s)+'</div>'+
+      '<div style="flex:1;background:var(--gray-100);border-radius:6px;height:8px;overflow:hidden;"><div style="width:'+(pipeline.length? Math.round(n/pipeline.length*100):0)+'%;height:100%;background:var(--red-600);border-radius:6px;"></div></div>'+
+      '<div style="width:34px;text-align:right;font-size:12.5px;font-weight:600;color:var(--slate);">'+n+'</div>'+
+    '</div>';
+  }).join('');
+
+  var recentDeals = pipeline.slice(0,5).map(function(d){
+    return '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-top:1px solid var(--gray-150);">'+
+      '<div style="min-width:0;"><div class="mono" style="font-size:11px;color:var(--red-600);font-weight:600;">'+d.id+'</div><div style="font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+esc(d.name)+'</div></div>'+
+      statusPill(d.status)+
+    '</div>';
+  }).join('') || '<p style="font-size:13px;color:var(--slate-2);">No deals yet.</p>';
+
+  var recentInvestors = investors.slice(0,5).map(function(d){
+    return '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-top:1px solid var(--gray-150);">'+
+      '<div style="min-width:0;"><div class="mono" style="font-size:11px;color:var(--red-600);font-weight:600;">'+d.id+'</div><div style="font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+esc(d.investor_type)+' &middot; '+esc(d.jurisdiction)+'</div></div>'+
+      typePill(d.ptype)+
+    '</div>';
+  }).join('') || '<p style="font-size:13px;color:var(--slate-2);">No investor profiles yet.</p>';
+
+  var html = '<h1 style="font-size:23px;margin-bottom:4px;">Dashboard</h1>'+
+  '<p style="color:var(--slate);font-size:13.5px;margin-bottom:20px;">Deal flow overview for '+esc(u.full_name||u.email)+'.</p>'+
+  '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:20px;">'+cards+'</div>'+
+  '<div style="display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:16px;margin-bottom:20px;">'+
+    '<div class="card" style="padding:18px 20px;">'+
+      '<h3 style="font-size:14px;margin-bottom:10px;">Pipeline by status</h3>'+statusBar+
+    '</div>'+
+    '<div class="card" style="padding:18px 20px;">'+
+      '<h3 style="font-size:14px;margin-bottom:4px;">Recently added deals</h3>'+recentDeals+
+    '</div>'+
+    '<div class="card" style="padding:18px 20px;">'+
+      '<h3 style="font-size:14px;margin-bottom:4px;">Recently added investors</h3>'+recentInvestors+
+    '</div>'+
+  '</div>'+
+  '<div class="card" style="padding:18px 20px;">'+
+    '<h3 style="font-size:14px;margin-bottom:12px;">Your recent login history</h3>'+
+    (history.length? '<table><tbody>'+history.slice(0,6).map(function(h){return '<tr><td style="padding:7px 0;font-size:13px;color:var(--slate);border-top:1px solid var(--gray-150);">'+fmtDate(h.created_at)+'</td><td style="padding:7px 0;text-align:right;border-top:1px solid var(--gray-150);"><span style="font-size:11px;font-weight:600;color:var(--green);">Success</span></td></tr>';}).join('')+'</tbody></table>' : '<p style="font-size:13px;color:var(--slate-2);">No data yet.</p>')+
+  '</div>';
+  setBody(html);
+  var gotoUsers = root.querySelector('#btn-goto-users');
+  if(gotoUsers) gotoUsers.onclick=function(){ state.tab='admin-users'; updateNavActiveStyles(); renderTab(); };
+}
+
+function statusPill(s){
+  var map = { 'Closed':['#DCFCE7','#15803D'], 'In Progress':['#FEF3C7','#B45309'], 'On Hold':['#F1F5F9','#475569'], 'Open':['#DBEAFE','#1D4ED8'] };
+  var c = map[s] || ['var(--gray-150)','var(--slate)'];
+  return '<span style="font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;background:'+c[0]+';color:'+c[1]+';white-space:nowrap;">'+esc(s)+'</span>';
+}
+function typePill(s){
+  var map = { 'PE':['#EDE9FE','#6D28D9'], 'VC':['#CFFAFE','#0E7490'], 'IF':['#FFEDD5','#C2410C'], 'FM':['#FCE7F3','#BE185D'], 'BF':['#E0E7FF','#4338CA'], 'FG':['#FEF3C7','#B45309'] };
+  var c = map[s] || ['var(--gray-150)','var(--slate)'];
+  return '<span style="font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;background:'+c[0]+';color:'+c[1]+';white-space:nowrap;">'+esc(s||'—')+'</span>';
+}
+function actionPill(s){
+  var c = ['#F1F5F9','#475569'];
+  if(s==='Signed in') c = ['#DBEAFE','#1D4ED8'];
+  else if(/Created/.test(s)) c = ['#DCFCE7','#15803D'];
+  else if(/Edited|Updated|Changed/.test(s)) c = ['#FEF3C7','#B45309'];
+  else if(/Deleted/.test(s)) c = ['#FEE2E2','#B91C1C'];
+  return '<span style="font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;background:'+c[0]+';color:'+c[1]+';white-space:nowrap;">'+esc(s)+'</span>';
+}
+
+async function renderPipeline(){
+  setBody('<div class="skel" style="height:28px;width:160px;margin-bottom:18px;"></div>'+loadingBlock(6));
+  var u = state.profile;
+  var deals = await fetchPipeline();
+  var sectors = Array.from(new Set(deals.map(function(d){return d.sector;}))).filter(Boolean).sort();
+  var statuses = Array.from(new Set(deals.map(function(d){return d.status;}))).filter(Boolean).sort();
+  var q=(state.pipeQ||'').toLowerCase();
+  var filtered = deals.filter(function(d){
+    var okQ = !q || (d.name+' '+d.id+' '+d.sector+' '+d.country+' '+d.description).toLowerCase().indexOf(q)>-1;
+    var okS = state.pipeSector==='all' || d.sector===state.pipeSector;
+    var okSt = state.pipeStatus==='all' || d.status===state.pipeStatus;
+    return okQ&&okS&&okSt;
+  });
+  var empty = u.role!=='admin' && deals.length===0;
+  var pg = paginate(filtered, state.pipePage);
+
+  var html = '<div style="display:flex;flex-direction:column;height:calc(100vh - 44px);">'+
+  '<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px;flex-wrap:wrap;gap:10px;flex-shrink:0;">'+
+    '<div><h1 style="font-size:23px;">Pipeline</h1><p style="color:var(--slate);font-size:13.5px;margin-top:3px;">'+(u.role==='admin'?'All '+deals.length+' deals.':'Only showing deals assigned to you by your Admin.')+'</p></div>'+
+    (u.role==='admin'? '<button id="btn-add-deal" class="btn btn-primary">+ Add Deal</button>' : '')+
+  '</div>';
+  if(empty){
+    var myReq = await fetchMyAccessRequest();
+    var emptyInner;
+    if(!myReq || myReq.status==='denied'){
+      emptyInner = '<p style="margin-bottom:14px;">You have not been assigned any deals in the Pipeline yet.</p>'+
+        (myReq&&myReq.status==='denied'? '<p style="font-size:12px;color:var(--slate-2);margin-bottom:14px;">Your previous request was declined. You can send a new one.</p>' : '')+
+        '<button id="btn-request-access" class="btn btn-primary btn-sm">Request Access</button>';
+    } else if(myReq.status==='pending'){
+      emptyInner = '<p>Your access request is pending Admin review.</p><p style="font-size:12px;color:var(--slate-2);margin-top:6px;">Sent '+fmtDate(myReq.created_at)+'</p>';
+    } else {
+      emptyInner = '<p>Your access request was approved. Your Admin will assign specific deals to you shortly.</p>';
+    }
+    html += '<div class="card" style="border-style:dashed;padding:40px;text-align:center;color:var(--slate);font-size:13.5px;">'+emptyInner+'</div></div>';
+  } else {
+    var cw = getColWidths('pipe');
+    html += '<div style="display:flex;gap:10px;margin-bottom:8px;flex-wrap:wrap;flex-shrink:0;">'+
+      '<input id="pipe-q" placeholder="Search by name, ID, sector, country..." value="'+esc(state.pipeQ)+'" style="flex:1;min-width:220px;padding:9px 12px;border:1px solid var(--gray-300);border-radius:8px;font-size:13.5px;" />'+
+      '<select id="pipe-sector" style="padding:9px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:13px;">'+
+        '<option value="all">All sectors</option>'+sectors.map(function(s){return '<option'+(state.pipeSector===s?' selected':'')+'>'+esc(s)+'</option>';}).join('')+
+      '</select>'+
+      '<select id="pipe-status" style="padding:9px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:13px;">'+
+        '<option value="all">All statuses</option>'+statuses.map(function(s){return '<option'+(state.pipeStatus===s?' selected':'')+'>'+esc(s)+'</option>';}).join('')+
+      '</select>'+
+    '</div>'+
+    '<div class="card scroll" style="overflow:auto;flex:1;min-height:0;">'+
+      '<table id="pipe-table" class="gi-table" style="width:'+cw.reduce(function(a,b){return a+b;},0)+'px;">'+
+        colgroupHtml(cw)+
+        '<thead><tr style="background:var(--gray-100);">'+
+          ['Date Created','Status','ID','Name','Sector','Country','Listing','Investment Case','Deal Size','Funding Type','Deal Structure','Stake','Revenue (US$mn)','EBITDA (US$mn)',''].map(function(h){return '<th style="text-align:left;padding:0;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--slate);font-weight:600;background:var(--gray-100);position:sticky;top:0;"><div class="th-inner" style="position:relative;padding:7px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+h+'</div></th>';}).join('')+
+        '</tr></thead><tbody>'+
+        pg.items.map(function(d){
+          return '<tr data-row data-deal="'+d.id+'" style="border-top:1px solid var(--gray-150);">'+
+            '<td style="padding:7px 10px;font-size:12px;color:var(--slate);">'+esc(d.date_created)+'</td>'+
+            '<td style="padding:7px 10px;">'+statusPill(d.status)+'</td>'+
+            '<td class="mono" style="padding:7px 10px;font-size:12px;color:var(--red-600);font-weight:600;">'+d.id+'</td>'+
+            '<td style="padding:7px 10px;font-size:13px;font-weight:500;" title="'+esc(d.name)+'">'+esc(d.name)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;color:var(--slate);" title="'+esc(d.sector)+'">'+esc(d.sector)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;color:var(--slate);">'+esc(d.country)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;color:var(--slate);">'+esc(d.listing)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(d.description)+'">'+esc(d.description)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.deal_size)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.funding_type)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.structure)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.stake)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.revenue)+'</td>'+
+            '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.ebitda)+'</td>'+
+            '<td style="padding:7px 10px;">'+(u.role==='admin'?'<button class="btn btn-sm btn-secondary" data-assign="'+d.id+'">Assign</button>':'<span style="font-size:11.5px;color:var(--slate-2);">Details &rarr;</span>')+'</td>'+
+          '</tr>';
+        }).join('')+
+        '</tbody></table>'+
+    '</div>'+
+    '<div style="flex-shrink:0;">'+
+    '<p style="font-size:11px;color:var(--slate-2);margin:5px 4px 0;">Tip: drag a column edge to resize it, scroll horizontally to see more, or click any row for full details.</p>'+
+    paginationBar(pg,'pipe')+
+    '</div>';
+  }
+  html += '</div>';
+  setBody(html);
+  bindPipelineEvents();
+}
+
+async function renderInvestors(){
+  setBody('<div class="skel" style="height:28px;width:220px;margin-bottom:18px;"></div>'+loadingBlock(6));
+  var u = state.profile;
+  var list = await fetchInvestors();
+  var types = Array.from(new Set(list.map(function(d){return d.ptype;}))).filter(Boolean).sort();
+  var q=(state.invQ||'').toLowerCase();
+  var filtered = list.filter(function(d){
+    var okQ = !q || (d.investor_type+' '+d.id+' '+d.sector+' '+d.jurisdiction+' '+d.target_country+' '+d.remarks).toLowerCase().indexOf(q)>-1;
+    var okT = state.invType==='all' || d.ptype===state.invType;
+    return okQ&&okT;
+  });
+  var pg = paginate(filtered, state.invPage);
+  var cw = getColWidths('inv');
+  var html = '<div style="display:flex;flex-direction:column;height:calc(100vh - 44px);">'+
+  '<div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px;flex-wrap:wrap;gap:10px;flex-shrink:0;">'+
+    '<div><h1 style="font-size:23px;">Investors</h1><p style="color:var(--slate);font-size:13.5px;margin-top:3px;">'+list.length+' investor profiles.</p></div>'+
+    (u.role==='admin'? '<button id="btn-add-investor" class="btn btn-primary">+ Add Investor</button>' : '')+
+  '</div>'+
+  '<div style="display:flex;gap:10px;margin-bottom:8px;flex-wrap:wrap;flex-shrink:0;">'+
+    '<input id="inv-q" placeholder="Search by investor type, country, sector..." value="'+esc(state.invQ)+'" style="flex:1;min-width:220px;padding:9px 12px;border:1px solid var(--gray-300);border-radius:8px;font-size:13.5px;" />'+
+    '<select id="inv-type" style="padding:9px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:13px;">'+
+      '<option value="all">All types</option>'+types.map(function(s){return '<option'+(state.invType===s?' selected':'')+'>'+esc(s)+'</option>';}).join('')+
+    '</select>'+
+  '</div>'+
+  '<div class="card scroll" style="overflow:auto;flex:1;min-height:0;">'+
+    '<table id="inv-table" class="gi-table" style="width:'+cw.reduce(function(a,b){return a+b;},0)+'px;">'+
+      colgroupHtml(cw)+
+      '<thead><tr style="background:var(--gray-100);">'+
+        ['Date Created','ID','Investor','Jurisdiction','Type','Target Market','Sector of Interest','Strategy','Min Deal Size','Min EBITDA','Min Revenue','Remarks'].map(function(h){return '<th style="text-align:left;padding:0;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--slate);font-weight:600;background:var(--gray-100);position:sticky;top:0;"><div class="th-inner" style="position:relative;padding:7px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+h+'</div></th>';}).join('')+
+      '</tr></thead><tbody>'+
+      pg.items.map(function(d){
+        return '<tr data-row data-inv="'+d.id+'" style="border-top:1px solid var(--gray-150);">'+
+          '<td style="padding:7px 10px;font-size:12px;color:var(--slate);">'+esc(d.date_created)+'</td>'+
+          '<td class="mono" style="padding:7px 10px;font-size:12px;color:var(--red-600);font-weight:600;">'+d.id+'</td>'+
+          '<td style="padding:7px 10px;font-size:13px;font-weight:500;" title="'+esc(d.investor_type)+'">'+esc(d.investor_type)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;color:var(--slate);">'+esc(d.jurisdiction)+'</td>'+
+          '<td style="padding:7px 10px;">'+typePill(d.ptype)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(d.target_country)+'">'+esc(d.target_country)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(d.sector)+'">'+esc(d.sector)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(d.strategy)+'">'+esc(d.strategy)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.min_deal)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.min_ebitda)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;">'+esc(d.min_rev)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(d.remarks)+'">'+esc(d.remarks)+'</td>'+
+        '</tr>';
+      }).join('')+
+      '</tbody></table>'+
+  '</div>'+
+  '<div style="flex-shrink:0;">'+
+  '<p style="font-size:11px;color:var(--slate-2);margin:5px 4px 0;">Tip: drag a column edge to resize it, scroll horizontally to see more, or click any row for full details.</p>'+
+  paginationBar(pg,'inv')+
+  '</div></div>';
+  setBody(html);
+  bindInvestorEvents();
+}
+
+async function renderAuditTrail(){
+  setBody('<div class="skel" style="height:28px;width:180px;margin-bottom:18px;"></div>'+loadingBlock(6));
+  var logs = await fetchAuditTrail();
+  var profiles = await fetchProfiles();
+  var profileMap = {}; profiles.forEach(function(p){ profileMap[p.id]=p; });
+
+  var todayStr = new Date().toDateString();
+  var eventsToday = logs.filter(function(h){ return new Date(h.created_at).toDateString()===todayStr; }).length;
+  var uniqueUsers = new Set(logs.map(function(h){return h.user_id;})).size;
+  var countByUser = {};
+  logs.forEach(function(h){ countByUser[h.user_id]=(countByUser[h.user_id]||0)+1; });
+  var topUserId = Object.keys(countByUser).sort(function(a,b){return countByUser[b]-countByUser[a];})[0];
+  var topUser = topUserId && profileMap[topUserId] ? profileMap[topUserId].full_name : '—';
+
+  var actionTypes = Array.from(new Set(logs.map(function(h){return h.action;}))).filter(Boolean).sort();
+  var q = (state.auditQ||'').toLowerCase();
+  var actionFilter = state.auditAction||'all';
+  var filtered = logs.filter(function(h){
+    var p = profileMap[h.user_id];
+    var okQ = !q || ((p?p.full_name:'')+' '+h.email+' '+h.details).toLowerCase().indexOf(q)>-1;
+    var okA = actionFilter==='all' || h.action===actionFilter;
+    return okQ && okA;
+  });
+  var pg = paginate(filtered, state.auditPage);
+
+  var cards = statCard('Total events', logs.length)+statCard('Events today', eventsToday)+statCard('Unique users', uniqueUsers)+statCard('Most active', esc(topUser));
+
+  var html = '<div style="display:flex;flex-direction:column;height:calc(100vh - 44px);">'+
+  '<div style="margin-bottom:14px;flex-shrink:0;"><h1 style="font-size:23px;">Activities Log</h1><p style="color:var(--slate);font-size:13.5px;margin-top:3px;">Logins and platform activity across all users, most recent first.</p></div>'+
+  '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:14px;flex-shrink:0;">'+cards+'</div>'+
+  '<div style="display:flex;gap:10px;margin-bottom:8px;flex-shrink:0;flex-wrap:wrap;">'+
+    '<input id="audit-q" placeholder="Search by name, email, or details..." value="'+esc(state.auditQ||'')+'" style="flex:1;min-width:220px;padding:9px 12px;border:1px solid var(--gray-300);border-radius:8px;font-size:13.5px;" />'+
+    '<select id="audit-action" style="padding:9px 10px;border:1px solid var(--gray-300);border-radius:8px;font-size:13px;background:#fff;">'+
+      '<option value="all">All actions</option>'+actionTypes.map(function(a){return '<option'+(actionFilter===a?' selected':'')+'>'+esc(a)+'</option>';}).join('')+
+    '</select>'+
+  '</div>'+
+  '<div class="card scroll" style="overflow:auto;flex:1;min-height:0;">'+
+    '<table style="min-width:900px;width:100%;border-collapse:separate;border-spacing:0;">'+
+      '<thead><tr>'+
+        ['Full Name','Email','Role','Action','Details','Timestamp'].map(function(h){return '<th style="text-align:left;padding:8px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--slate);font-weight:600;background:var(--gray-100);border-bottom:1px solid var(--gray-200);position:sticky;top:0;">'+h+'</th>';}).join('')+
+      '</tr></thead><tbody>'+
+      pg.items.map(function(h,idx){
+        var p = profileMap[h.user_id];
+        return '<tr style="border-top:1px solid var(--gray-150);background:'+(idx%2===1?'var(--gray-50)':'#fff')+';">'+
+          '<td style="padding:8px 12px;font-size:13px;font-weight:500;">'+esc(p?p.full_name:'Deleted user')+'</td>'+
+          '<td style="padding:8px 12px;font-size:12.5px;color:var(--slate);">'+esc(h.email)+'</td>'+
+          '<td style="padding:8px 12px;font-size:11.5px;font-weight:600;color:'+(p?roleBadgeColor(p.role):'var(--slate-2)')+';">'+(p?roleLabel(p.role):'—')+'</td>'+
+          '<td style="padding:8px 12px;">'+actionPill(h.action)+'</td>'+
+          '<td style="padding:8px 12px;font-size:12.5px;color:var(--slate);max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="'+esc(h.details)+'">'+esc(h.details||'—')+'</td>'+
+          '<td style="padding:8px 12px;font-size:12.5px;white-space:nowrap;">'+fmtDate(h.created_at)+'</td>'+
+        '</tr>';
+      }).join('')+
+      '</tbody></table>'+
+  '</div>'+
+  '<div style="flex-shrink:0;">'+paginationBar(pg,'audit')+'</div></div>';
+  setBody(html);
+  var aq = root.querySelector('#audit-q'); if(aq) aq.oninput=function(){ state.auditQ=aq.value; state.auditPage=1; renderAuditTrail(); };
+  var aa = root.querySelector('#audit-action'); if(aa) aa.onchange=function(){ state.auditAction=aa.value; state.auditPage=1; renderAuditTrail(); };
+  bindPagination(function(key,page){ state.auditPage=page; renderAuditTrail(); });
+}
+async function renderAccessRequests(){
+  setBody('<div class="skel" style="height:28px;width:200px;margin-bottom:18px;"></div>'+loadingBlock(6));
+  var reqs = await fetchAllAccessRequests();
+  var profiles = await fetchProfiles();
+  var profileMap = {}; profiles.forEach(function(p){ profileMap[p.id]=p; });
+  var pending = reqs.filter(function(r){return r.status==='pending';});
+  var resolved = reqs.filter(function(r){return r.status!=='pending';});
+
+  function statusChip(status){
+    var pillMap = { pending:['#FEF3C7','#B45309'], approved:['#DCFCE7','#15803D'], denied:['#FEE2E2','#B91C1C'] };
+    var c = pillMap[status];
+    return '<span style="font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;background:'+c[0]+';color:'+c[1]+';white-space:nowrap;">'+status.charAt(0).toUpperCase()+status.slice(1)+'</span>';
+  }
+  function tableBlock(list, title){
+    if(!list.length) return '';
+    return '<h3 style="font-size:13px;color:var(--slate);text-transform:uppercase;letter-spacing:.04em;margin:20px 0 10px;">'+title+' ('+list.length+')</h3>'+
+    '<div class="card scroll" style="overflow:auto;">'+
+      '<table style="min-width:1100px;width:100%;border-collapse:separate;border-spacing:0;">'+
+        '<thead><tr>'+
+          ['Full Name','Email','Company','Title','Phone','Message','Requested','Status',''].map(function(h){return '<th style="text-align:left;padding:8px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--slate);font-weight:600;background:var(--gray-100);border-bottom:1px solid var(--gray-200);white-space:nowrap;">'+h+'</th>';}).join('')+
+        '</tr></thead><tbody>'+
+        list.map(function(r,idx){
+          var p = profileMap[r.user_id];
+          return '<tr style="border-top:1px solid var(--gray-150);background:'+(idx%2===1?'var(--gray-50)':'#fff')+';">'+
+            '<td style="padding:8px 12px;font-size:13px;font-weight:500;white-space:nowrap;">'+esc(r.full_name)+'</td>'+
+            '<td style="padding:8px 12px;font-size:12.5px;color:var(--slate);white-space:nowrap;">'+esc(r.email)+'</td>'+
+            '<td style="padding:8px 12px;font-size:12.5px;white-space:nowrap;">'+(esc(p?p.company:'')||'—')+'</td>'+
+            '<td style="padding:8px 12px;font-size:12.5px;white-space:nowrap;">'+(esc(p?p.title:'')||'—')+'</td>'+
+            '<td style="padding:8px 12px;font-size:12.5px;white-space:nowrap;">'+(p?esc(p.phone_cc)+' '+esc(p.phone):'—')+'</td>'+
+            '<td style="padding:8px 12px;font-size:12.5px;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="'+esc(r.message)+'">'+(esc(r.message)||'—')+'</td>'+
+            '<td style="padding:8px 12px;font-size:12.5px;white-space:nowrap;">'+fmtDate(r.created_at)+'</td>'+
+            '<td style="padding:8px 12px;">'+statusChip(r.status)+'</td>'+
+            '<td style="padding:8px 12px;white-space:nowrap;">'+(r.status==='pending'? '<div style="display:flex;gap:6px;"><button class="btn btn-sm btn-secondary" data-deny="'+r.id+'" style="color:var(--red-600);">Deny</button><button class="btn btn-sm btn-primary" data-approve="'+r.id+'">Approve</button></div>' : '<span style="font-size:11.5px;color:var(--slate-2);">'+(r.resolved_at?fmtDate(r.resolved_at):'—')+'</span>')+'</td>'+
+          '</tr>';
+        }).join('')+
+        '</tbody></table>'+
+    '</div>';
+  }
+
+  var html = '<div style="margin-bottom:14px;"><h1 style="font-size:23px;">Access Requests</h1><p style="color:var(--slate);font-size:13.5px;margin-top:3px;">Visitors requesting access to the Pipeline, with full profile details for review.</p></div>'+
+  (pending.length? tableBlock(pending,'Pending') : '<p style="font-size:13px;color:var(--slate-2);margin-bottom:10px;">No pending requests.</p>')+
+  tableBlock(resolved,'Resolved');
+  setBody(html);
+
+  root.querySelectorAll('[data-approve]').forEach(function(b){
+    b.onclick=async function(){ b.disabled=true; b.textContent='Approving...'; await resolveAccessRequest(parseInt(b.getAttribute('data-approve'),10),'approved'); renderAccessRequests(); };
+  });
+  root.querySelectorAll('[data-deny]').forEach(function(b){
+    b.onclick=async function(){ b.disabled=true; b.textContent='Denying...'; await resolveAccessRequest(parseInt(b.getAttribute('data-deny'),10),'denied'); renderAccessRequests(); };
+  });
+}
+async function renderAdminUsers(){
+  setBody('<div class="skel" style="height:28px;width:160px;margin-bottom:18px;"></div>'+loadingBlock(6));
+  var users = await fetchProfiles();
+  var pg = paginate(users, state.usersPage);
+  var cw = getColWidths('users');
+  var html = '<div style="display:flex;flex-direction:column;height:calc(100vh - 44px);">'+
+  '<div style="margin-bottom:10px;flex-shrink:0;"><h1 style="font-size:23px;">Users</h1><p style="color:var(--slate);font-size:13.5px;margin-top:3px;">Approve accounts, assign roles, and view login history.</p></div>'+
+  '<div class="card scroll" style="overflow:auto;flex:1;min-height:0;">'+
+    '<table id="users-table" class="gi-table" style="width:'+cw.reduce(function(a,b){return a+b;},0)+'px;">'+
+      colgroupHtml(cw)+
+      '<thead><tr style="background:var(--gray-100);">'+
+        ['Full Name','Email','Company','Title','Phone','Joined','Role','Status',''].map(function(h){return '<th style="text-align:left;padding:0;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--slate);font-weight:600;background:var(--gray-100);position:sticky;top:0;"><div class="th-inner" style="position:relative;padding:7px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+h+'</div></th>';}).join('')+
+      '</tr></thead><tbody>'+
+      pg.items.map(function(x){
+        var isSelf = x.id===state.profile.id;
+        return '<tr style="border-top:1px solid var(--gray-150);">'+
+          '<td style="padding:7px 10px;font-size:13px;font-weight:500;" title="'+esc(x.full_name)+'">'+esc(x.full_name)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;color:var(--slate);" title="'+esc(x.email)+'">'+esc(x.email)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(x.company||'')+'">'+esc(x.company||'—')+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;" title="'+esc(x.title||'')+'">'+esc(x.title||'—')+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;">'+esc(x.phone_cc)+' '+esc(x.phone)+'</td>'+
+          '<td style="padding:7px 10px;font-size:12.5px;color:var(--slate);">'+fmtDate(x.created_at)+'</td>'+
+          '<td style="padding:7px 10px;overflow:visible;"><select data-role="'+x.id+'" '+(isSelf?'disabled':'')+' style="padding:5px 7px;border:1px solid var(--gray-300);border-radius:6px;font-size:12px;max-width:100%;">'+
+            ['visitor','admin'].map(function(r){return '<option value="'+r+'"'+(x.role===r?' selected':'')+'>'+roleLabel(r)+'</option>';}).join('')+
+          '</select></td>'+
+          '<td style="padding:7px 10px;overflow:visible;"><label style="display:flex;align-items:center;gap:6px;font-size:12px;">'+
+            '<input type="checkbox" data-status="'+x.id+'" '+(x.status==='active'?'checked':'')+' '+(isSelf?'disabled':'')+' /> '+(x.status==='active'?'Active':'Disabled')+
+          '</label></td>'+
+          '<td style="padding:7px 10px;overflow:visible;"><button class="btn btn-sm btn-secondary" data-history="'+x.id+'">History</button></td>'+
+        '</tr>';
+      }).join('')+
+      '</tbody></table>'+
+  '</div>'+
+  '<div style="flex-shrink:0;">'+paginationBar(pg,'users')+'</div></div>';
+  setBody(html);
+  bindAdminUsersEvents();
+}
+
+async function renderProfile(){
+  var u = state.profile;
+  setBody('<div class="skel" style="height:28px;width:180px;margin-bottom:18px;"></div>'+loadingBlock(4));
+  var history = await fetchMyHistory();
+  var {data:factorsData} = await sb.auth.mfa.listFactors();
+  var totpFactor = factorsData && factorsData.totp && factorsData.totp[0];
+  var mfaEnabled = !!totpFactor;
+  var html = '<div style="margin-bottom:18px;"><h1 style="font-size:23px;">My Profile</h1></div>'+
+  '<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;" id="gi-profile-grid">'+
+    '<div class="card" style="padding:20px;">'+
+      '<h3 style="font-size:14px;margin-bottom:14px;">Personal Information</h3>'+
+      inputField('Full name','pf-name','text','',true)+
+      inputField('Company','pf-company','text','',false)+
+      inputField('Title','pf-title','text','',false)+
+      '<div style="margin-bottom:13px;"><label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:5px;">Phone number</label>'+
+      '<div style="display:flex;gap:6px;"><select id="pf-cc" style="padding:9px 6px;border:1px solid var(--gray-300);border-radius:8px;font-size:13px;width:96px;">'+
+        COUNTRY_CODES.map(function(c){return '<option value="'+c[0]+'"'+(c[0]===u.phone_cc?' selected':'')+'>'+c[0]+' '+c[1]+'</option>';}).join('')+
+      '</select><input id="pf-phone" type="tel" value="'+esc(u.phone)+'" style="flex:1;padding:9px 11px;border:1px solid var(--gray-300);border-radius:8px;font-size:14px;" /></div></div>'+
+      '<div style="margin-bottom:13px;"><label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:5px;">Email</label><input value="'+esc(u.email)+'" disabled style="width:100%;padding:9px 11px;border:1px solid var(--gray-200);border-radius:8px;font-size:14px;background:var(--gray-100);color:var(--slate-2);" /></div>'+
+      '<button id="btn-save-profile" class="btn btn-primary">Save changes</button>'+
+    '</div>'+
+    '<div style="display:flex;flex-direction:column;gap:20px;">'+
+      '<div class="card" style="padding:20px;">'+
+        '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;">'+
+          '<div><h3 style="font-size:14px;">Two-Factor Authentication</h3><p style="font-size:12.5px;color:var(--slate);margin-top:4px;line-height:1.5;">Require a code from an authenticator app (Google Authenticator, Authy...) in addition to your password when signing in.</p></div>'+
+          '<span style="font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;background:'+(mfaEnabled?'#DCFCE7':'var(--gray-150)')+';color:'+(mfaEnabled?'#15803D':'var(--slate)')+';">'+(mfaEnabled?'Enabled':'Disabled')+'</span>'+
+        '</div>'+
+        (mfaEnabled?
+          '<button id="btn-mfa-disable" class="btn btn-secondary btn-sm" style="margin-top:14px;color:var(--red-600);">Disable 2FA</button>'
+          :
+          '<button id="btn-mfa-enable" class="btn btn-primary btn-sm" style="margin-top:14px;">Enable 2FA</button>')+
+      '</div>'+
+      '<div class="card" style="padding:20px;">'+
+        '<h3 style="font-size:14px;margin-bottom:14px;">Login History</h3>'+
+        '<div style="max-height:260px;overflow:auto;" class="scroll">'+
+        (history.length? history.map(function(h){return '<div style="display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid var(--gray-150);font-size:12.5px;"><span>'+fmtDate(h.created_at)+'</span><span style="color:var(--green);font-weight:600;">Success</span></div>';}).join('') : '<p style="font-size:13px;color:var(--slate-2);">No history yet.</p>')+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+  '</div>';
+  setBody(html);
+  root.querySelector('#pf-name').value = u.full_name||'';
+  root.querySelector('#pf-company').value = u.company||'';
+  root.querySelector('#pf-title').value = u.title||'';
+  bindProfileEvents();
+  var btnMfaEnable = root.querySelector('#btn-mfa-enable');
+  if(btnMfaEnable) btnMfaEnable.onclick = startMfaEnroll;
+  var btnMfaDisable = root.querySelector('#btn-mfa-disable');
+  if(btnMfaDisable) btnMfaDisable.onclick = async function(){
+    if(!confirm('Disable two-factor authentication? Your account will only require a password to sign in.')) return;
+    btnMfaDisable.textContent='Disabling...'; btnMfaDisable.disabled=true;
+    var {error} = await sb.auth.mfa.unenroll({factorId: totpFactor.id});
+    if(error){ toast(error.message,'error'); btnMfaDisable.textContent='Disable 2FA'; btnMfaDisable.disabled=false; return; }
+    logActivity('Disabled 2FA','Self');
+    toast('Two-factor authentication disabled.');
+    renderProfile();
+  };
+}
+
+function setBody(html){ var b=root.querySelector('#gi-body'); if(b) b.innerHTML=html; }
+
+/* ---------------- MODALS ---------------- */
+function openModal(html){
+  var wrap = document.createElement('div');
+  wrap.innerHTML = html;
+  document.body.appendChild(wrap.firstChild);
+}
+function closeModal(){ var bg=document.getElementById('gi-modal-bg'); if(bg) bg.remove(); }
+
+function dealModal(d){
+  var isAdmin = state.profile && state.profile.role==='admin';
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:560px;width:100%;max-height:86vh;overflow:auto;padding:26px 28px;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;">'+
+        '<div><div class="mono" style="font-size:12px;color:var(--red-600);font-weight:600;">'+d.id+'</div><h2 style="font-size:19px;margin-top:4px;">'+esc(d.name)+'</h2></div>'+
+        '<div style="display:flex;gap:6px;align-items:center;">'+(isAdmin?'<button id="btn-edit-deal" class="btn btn-sm btn-secondary">Edit</button>':'')+'<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button></div>'+
+      '</div>'+
+      '<div style="display:flex;gap:8px;margin:12px 0 16px;flex-wrap:wrap;">'+statusPill(d.status)+'<span style="font-size:11px;padding:3px 9px;border-radius:20px;background:var(--gray-100);color:var(--slate);">'+esc(d.sector)+'</span><span style="font-size:11px;padding:3px 9px;border-radius:20px;background:var(--gray-100);color:var(--slate);">'+esc(d.country)+'</span></div>'+
+      '<p style="font-size:13.5px;line-height:1.7;color:var(--ink);margin-bottom:18px;">'+esc(d.description)+'</p>'+
+      '<table style="width:100%;font-size:12.5px;">'+
+        [['Listing',d.listing],['Deal Size',d.deal_size],['Funding Type',d.funding_type],['Deal Structure',d.structure],['Stake for Sale',d.stake],['Revenue (US$mn)',d.revenue],['EBITDA (US$mn)',d.ebitda],['Date Created',d.date_created]].map(function(r){
+          return '<tr><td style="padding:7px 0;color:var(--slate);border-top:1px solid var(--gray-150);width:150px;">'+r[0]+'</td><td style="padding:7px 0;border-top:1px solid var(--gray-150);font-weight:500;">'+esc(r[1])+'</td></tr>';
+        }).join('')+
+      '</table>'+
+    '</div></div>');
+  bindModalClose();
+  var editBtn = document.getElementById('btn-edit-deal');
+  if(editBtn) editBtn.onclick=function(){ closeModal(); editDealModal(d); };
+}
+function investorModal(d){
+  var isAdmin = state.profile && state.profile.role==='admin';
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:560px;width:100%;max-height:86vh;overflow:auto;padding:26px 28px;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;">'+
+        '<div><div class="mono" style="font-size:12px;color:var(--red-600);font-weight:600;">'+d.id+'</div><h2 style="font-size:19px;margin-top:4px;">'+esc(d.investor_type)+'</h2></div>'+
+        '<div style="display:flex;gap:6px;align-items:center;">'+(isAdmin?'<button id="btn-edit-investor" class="btn btn-sm btn-secondary">Edit</button>':'')+'<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button></div>'+
+      '</div>'+
+      '<div style="display:flex;gap:8px;margin:12px 0 16px;flex-wrap:wrap;"><span style="font-size:11px;padding:3px 9px;border-radius:20px;background:var(--gray-100);color:var(--slate);">'+esc(d.jurisdiction)+'</span>'+typePill(d.ptype)+'<span style="font-size:11px;padding:3px 9px;border-radius:20px;background:var(--gray-100);color:var(--slate);">'+esc(d.target_country)+'</span></div>'+
+      '<p style="font-size:13.5px;line-height:1.7;color:var(--ink);margin-bottom:18px;"><strong style="font-weight:500;">Sector of interest:</strong> '+esc(d.sector)+'</p>'+
+      '<table style="width:100%;font-size:12.5px;">'+
+        [['Strategy',d.strategy],['Min Deal Size',d.min_deal],['Min EBITDA',d.min_ebitda],['Min Revenue',d.min_rev],['Remarks',d.remarks||'—'],['Date Created',d.date_created]].map(function(r){
+          return '<tr><td style="padding:7px 0;color:var(--slate);border-top:1px solid var(--gray-150);width:160px;vertical-align:top;">'+r[0]+'</td><td style="padding:7px 0;border-top:1px solid var(--gray-150);font-weight:500;">'+esc(r[1])+'</td></tr>';
+        }).join('')+
+      '</table>'+
+    '</div></div>');
+  bindModalClose();
+  var editBtn = document.getElementById('btn-edit-investor');
+  if(editBtn) editBtn.onclick=function(){ closeModal(); editInvestorModal(d); };
+}
+async function assignModal(deal){
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:460px;width:100%;max-height:82vh;overflow:auto;padding:24px 26px;">'+
+      '<h2 style="font-size:16px;margin-bottom:4px;">Assign visibility: <span class="mono" style="color:var(--red-600);">'+deal.id+'</span></h2>'+
+      '<p style="font-size:12.5px;color:var(--slate);margin-bottom:14px;">'+esc(deal.name)+'</p>'+
+      '<div style="margin-bottom:10px;">'+
+        '<input id="assign-q" placeholder="Search by name or email..." style="width:100%;padding:8px 10px;border:1px solid var(--gray-300);border-radius:7px;font-size:13px;" />'+
+      '</div>'+
+      '<div id="gi-assign-list"><div class="skel" style="height:80px;"></div></div>'+
+      '<div style="display:flex;gap:8px;margin-top:18px;">'+
+        '<button id="gi-modal-close" class="btn btn-secondary" style="flex:1;">Cancel</button>'+
+        '<button id="btn-assign-save" data-deal="'+deal.id+'" class="btn btn-primary" style="flex:1;">Save</button>'+
+      '</div>'+
+    '</div></div>');
+  bindModalClose();
+  var profiles = await fetchProfiles();
+  var candidates = profiles.filter(function(x){return x.role==='visitor'&&x.status==='active';});
+  var currentIds = await fetchAssignedUserIds(deal.id);
+  var selected = {}; currentIds.forEach(function(id){ selected[id]=true; });
+
+  function renderList(){
+    var q = (document.getElementById('assign-q').value||'').toLowerCase();
+    var filtered = candidates.filter(function(c){
+      return !q || (c.full_name+' '+c.email).toLowerCase().indexOf(q)>-1;
+    });
+    var listHost = document.getElementById('gi-assign-list');
+    listHost.innerHTML = filtered.length? '<div style="display:flex;flex-direction:column;gap:8px;max-height:280px;overflow:auto;">'+
+      filtered.map(function(c){
+        return '<label style="display:flex;align-items:center;gap:9px;font-size:13px;padding:7px 9px;border:1px solid var(--gray-150);border-radius:8px;">'+
+          '<input type="checkbox" data-cand="'+c.id+'" '+(selected[c.id]?'checked':'')+' /> <span style="font-weight:500;">'+esc(c.full_name)+'</span><span style="color:var(--slate-2);font-size:11.5px;">'+esc(c.email)+'</span>'+
+        '</label>';
+      }).join('')+'</div>' : '<p style="font-size:13px;color:var(--slate-2);">No matching Visitor found.</p>';
+    listHost.querySelectorAll('[data-cand]').forEach(function(chk){
+      chk.onchange = function(){ selected[chk.getAttribute('data-cand')] = chk.checked; };
+    });
+  }
+  renderList();
+  document.getElementById('assign-q').oninput = renderList;
+
+  var saveBtn = document.getElementById('btn-assign-save');
+  if(saveBtn) saveBtn.onclick = async function(){
+    var checked = Object.keys(selected).filter(function(id){ return selected[id]; });
+    saveBtn.textContent='Saving...'; saveBtn.disabled=true;
+    await sb.from('deal_assignments').delete().eq('deal_id', deal.id);
+    if(checked.length){
+      await sb.from('deal_assignments').insert(checked.map(function(uid){return {deal_id:deal.id, user_id:uid};}));
+    }
+    closeModal();
+    logActivity('Updated assignment', deal.id+' ('+esc(deal.name)+') -> '+checked.length+' user(s)');
+    toast('Visibility updated for '+deal.id+'.');
+  };
+}
+async function historyModal(userId){
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:440px;width:100%;max-height:80vh;overflow:auto;padding:24px 26px;">'+
+      '<h2 style="font-size:16px;margin-bottom:2px;">Login History</h2>'+
+      '<div id="gi-hist-body"><div class="skel" style="height:80px;"></div></div>'+
+      '<button id="gi-modal-close" class="btn btn-secondary" style="margin-top:16px;width:100%;">Close</button>'+
+    '</div></div>');
+  bindModalClose();
+  var profiles = await fetchProfiles();
+  var user = profiles.find(function(x){return x.id===userId;});
+  var hist = await fetchUserHistory(userId);
+  var host = document.getElementById('gi-hist-body');
+  if(host) host.innerHTML = '<p style="font-size:12.5px;color:var(--slate);margin-bottom:14px;">'+esc(user?user.full_name:'')+' &middot; '+esc(user?user.email:'')+'</p>'+
+    (hist.length? hist.map(function(h){return '<div style="display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid var(--gray-150);font-size:12.5px;"><span>'+fmtDate(h.created_at)+'</span><span style="color:var(--green);font-weight:600;">Success</span></div>';}).join('') : '<p style="font-size:13px;color:var(--slate-2);">No login records yet.</p>');
+}
+function requestAccessModal(){
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:440px;width:100%;max-height:80vh;overflow:auto;padding:24px 26px;">'+
+      '<h2 style="font-size:16px;margin-bottom:4px;">Request Pipeline access</h2>'+
+      '<p style="font-size:12.5px;color:var(--slate);margin-bottom:14px;">Let your Admin know why you need access. This will be sent as a request for review.</p>'+
+      textareaFieldHtml('Message (optional)','ra-msg',false)+
+      '<div style="display:flex;gap:8px;margin-top:6px;">'+
+        '<button id="gi-modal-close" class="btn btn-secondary" style="flex:1;">Cancel</button>'+
+        '<button id="btn-send-request" class="btn btn-primary" style="flex:1;">Send Request</button>'+
+      '</div>'+
+    '</div></div>');
+  bindModalClose();
+  var btn = document.getElementById('btn-send-request');
+  btn.onclick = async function(){
+    btn.textContent='Sending...'; btn.disabled=true;
+    await submitAccessRequest(document.getElementById('ra-msg').value.trim());
+    closeModal();
+    renderPipeline();
+  };
+}
+async function startMfaEnroll(){
+  var {data,error} = await sb.auth.mfa.enroll({factorType:'totp'});
+  if(error){ toast(error.message,'error'); return; }
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:400px;width:100%;max-height:88vh;overflow:auto;padding:26px 28px;text-align:center;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;text-align:left;">'+
+        '<h2 style="font-size:18px;">Set up 2FA</h2>'+
+        '<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button>'+
+      '</div>'+
+      '<p style="font-size:12.5px;color:var(--slate);text-align:left;margin:8px 0 16px;line-height:1.55;">Scan this QR code with an authenticator app (Google Authenticator, Authy, 1Password...), then enter the 6-digit code it generates.</p>'+
+      '<div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:14px;display:flex;justify-content:center;">'+data.totp.qr_code+'</div>'+
+      '<p style="font-size:11px;color:var(--slate-2);margin:10px 0 16px;word-break:break-all;">Can\'t scan? Enter this key manually: <span class="mono" style="color:var(--ink);">'+data.totp.secret+'</span></p>'+
+      '<div style="text-align:left;">'+inputField('Verification code','mfa-enroll-code','text','123456',true)+'</div>'+
+      '<button id="btn-mfa-confirm" class="btn btn-primary" style="width:100%;margin-top:4px;">Confirm and enable</button>'+
+    '</div></div>');
+  bindModalClose();
+  var btn = document.getElementById('btn-mfa-confirm');
+  btn.onclick = async function(){
+    var code = (document.getElementById('mfa-enroll-code').value||'').trim();
+    if(!code){ toast('Enter the 6-digit code.','error'); return; }
+    btn.textContent='Verifying...'; btn.disabled=true;
+    var {data:challenge, error:chErr} = await sb.auth.mfa.challenge({factorId:data.id});
+    if(chErr){ toast(chErr.message,'error'); btn.textContent='Confirm and enable'; btn.disabled=false; return; }
+    var {error:verErr} = await sb.auth.mfa.verify({factorId:data.id, challengeId:challenge.id, code:code});
+    if(verErr){ toast('Invalid code, please try again.','error'); btn.textContent='Confirm and enable'; btn.disabled=false; return; }
+    logActivity('Enabled 2FA','Self');
+    toast('Two-factor authentication enabled.');
+    closeModal();
+    renderProfile();
+  };
+}
+function bindModalClose(){
+  var bg = document.getElementById('gi-modal-bg');
+  var btn = document.getElementById('gi-modal-close');
+  if(btn) btn.onclick = closeModal;
+  if(bg) bg.onclick = function(e){ if(e.target===bg) closeModal(); };
+}
+
+/* ---------------- MANUAL ADD FORMS ---------------- */
+function textField(label,id,value,required,readOnly){
+  return '<div style="margin-bottom:12px;"><label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:4px;">'+label+(required?' <span style="color:var(--red-500);">*</span>':'')+'</label>'+
+  '<input id="'+id+'" type="text" value="'+esc(value||'')+'" '+(readOnly?'readonly':'')+' style="width:100%;padding:8px 10px;border:1px solid var(--gray-300);border-radius:7px;font-size:13.5px;'+(readOnly?'background:var(--gray-100);color:var(--slate-2);':'')+'" /></div>';
+}
+function selectFieldHtml(label,id,options,required,selected){
+  return '<div style="margin-bottom:12px;"><label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:4px;">'+label+(required?' <span style="color:var(--red-500);">*</span>':'')+'</label>'+
+  '<select id="'+id+'" style="width:100%;padding:8px 10px;border:1px solid var(--gray-300);border-radius:7px;font-size:13.5px;background:#fff;">'+options.map(function(o){return '<option value="'+esc(o)+'"'+(o===selected?' selected':'')+'>'+esc(o)+'</option>';}).join('')+'</select></div>';
+}
+function textareaFieldHtml(label,id,required,value){
+  return '<div style="margin-bottom:12px;"><label style="display:block;font-size:12px;font-weight:600;color:var(--slate);margin-bottom:4px;">'+label+(required?' <span style="color:var(--red-500);">*</span>':'')+'</label>'+
+  '<textarea id="'+id+'" style="width:100%;padding:8px 10px;border:1px solid var(--gray-300);border-radius:7px;font-size:13.5px;height:70px;font-family:var(--font-body);">'+esc(value||'')+'</textarea></div>';
+}
+
+function addDealModal(){
+  var suggestedId = nextId(state.cache.pipeline||[], 'PJ');
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:560px;width:100%;max-height:88vh;overflow:auto;padding:26px 28px;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;">'+
+        '<h2 style="font-size:18px;">Add New Deal</h2>'+
+        '<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button>'+
+      '</div>'+
+      '<p style="font-size:11.5px;color:var(--slate-2);margin:4px 0 16px;">Date Created is set automatically to today (real time).</p>'+
+      textField('ID','ad-id',suggestedId,true)+
+      textField('Name','ad-name','',true)+
+      textField('Sector','ad-sector','',true)+
+      textField('Country','ad-country','',true)+
+      selectFieldHtml('Status','ad-status',['Open','In Progress','On Hold','Closed'],true)+
+      selectFieldHtml('Listing','ad-listing',['No','Yes'],false)+
+      textareaFieldHtml('Investment Case','ad-desc',false)+
+      textField('Deal Size','ad-dealsize','',false)+
+      textField('Funding Type','ad-funding','',false)+
+      textField('Deal Structure','ad-structure','',false)+
+      textField('Stake for Sale','ad-stake','',false)+
+      textField('Revenue (US$mn)','ad-revenue','',false)+
+      textField('EBITDA (US$mn)','ad-ebitda','',false)+
+      '<button id="btn-save-deal" class="btn btn-primary" style="width:100%;margin-top:6px;">Save Deal</button>'+
+    '</div></div>');
+  bindModalClose();
+  var btn = document.getElementById('btn-save-deal');
+  btn.onclick = async function(){
+    var payload = {
+      id: (document.getElementById('ad-id').value||'').trim(),
+      date_created: todayDMY(),
+      status: document.getElementById('ad-status').value,
+      name: document.getElementById('ad-name').value.trim(),
+      sector: document.getElementById('ad-sector').value.trim(),
+      country: document.getElementById('ad-country').value.trim(),
+      listing: document.getElementById('ad-listing').value,
+      description: document.getElementById('ad-desc').value.trim(),
+      deal_size: document.getElementById('ad-dealsize').value.trim(),
+      funding_type: document.getElementById('ad-funding').value.trim(),
+      structure: document.getElementById('ad-structure').value.trim(),
+      stake: document.getElementById('ad-stake').value.trim(),
+      revenue: document.getElementById('ad-revenue').value.trim(),
+      ebitda: document.getElementById('ad-ebitda').value.trim()
+    };
+    if(!payload.id||!payload.name||!payload.sector||!payload.country){ toast('Please fill in all required fields.','error'); return; }
+    btn.textContent='Saving...'; btn.disabled=true;
+    var {error} = await sb.from('pipeline').insert(payload);
+    btn.textContent='Save Deal'; btn.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    state.cache.pipeline=null;
+    closeModal();
+    logActivity('Created deal', payload.id+' - '+payload.name);
+    toast('Deal '+payload.id+' added.');
+    renderPipeline();
+  };
+}
+
+function addInvestorModal(){
+  var suggestedId = nextId(state.cache.investors||[], 'IA');
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:560px;width:100%;max-height:88vh;overflow:auto;padding:26px 28px;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;">'+
+        '<h2 style="font-size:18px;">Add New Investor</h2>'+
+        '<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button>'+
+      '</div>'+
+      '<p style="font-size:11.5px;color:var(--slate-2);margin:4px 0 16px;">Date Created is set automatically to today (real time).</p>'+
+      textField('ID','ai-id',suggestedId,true)+
+      textField('Investor Type','ai-type','',true)+
+      textField('Jurisdiction','ai-juris','',true)+
+      selectFieldHtml('Type','ai-ptype',['PE','VC','IF','FM','BF','FG'],true)+
+      textField('Target Market','ai-target','',false)+
+      textareaFieldHtml('Sector of Interest','ai-sector',false)+
+      textareaFieldHtml('Strategy','ai-strategy',false)+
+      textField('Min Deal Size','ai-mindeal','',false)+
+      textField('Min EBITDA','ai-minebitda','',false)+
+      textField('Min Revenue','ai-minrev','',false)+
+      textareaFieldHtml('Remarks','ai-remarks',false)+
+      '<button id="btn-save-investor" class="btn btn-primary" style="width:100%;margin-top:6px;">Save Investor</button>'+
+    '</div></div>');
+  bindModalClose();
+  var btn = document.getElementById('btn-save-investor');
+  btn.onclick = async function(){
+    var payload = {
+      id: (document.getElementById('ai-id').value||'').trim(),
+      date_created: todayDMY(),
+      investor_type: document.getElementById('ai-type').value.trim(),
+      jurisdiction: document.getElementById('ai-juris').value.trim(),
+      ptype: document.getElementById('ai-ptype').value,
+      target_country: document.getElementById('ai-target').value.trim(),
+      sector: document.getElementById('ai-sector').value.trim(),
+      strategy: document.getElementById('ai-strategy').value.trim(),
+      min_deal: document.getElementById('ai-mindeal').value.trim(),
+      min_ebitda: document.getElementById('ai-minebitda').value.trim(),
+      min_rev: document.getElementById('ai-minrev').value.trim(),
+      remarks: document.getElementById('ai-remarks').value.trim()
+    };
+    if(!payload.id||!payload.investor_type||!payload.jurisdiction){ toast('Please fill in all required fields.','error'); return; }
+    btn.textContent='Saving...'; btn.disabled=true;
+    var {error} = await sb.from('investor_needs').insert(payload);
+    btn.textContent='Save Investor'; btn.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    state.cache.investors=null;
+    closeModal();
+    logActivity('Created investor', payload.id+' - '+payload.investor_type);
+    toast('Investor '+payload.id+' added.');
+    renderInvestors();
+  };
+}
+
+function editDealModal(d){
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:560px;width:100%;max-height:88vh;overflow:auto;padding:26px 28px;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;">'+
+        '<h2 style="font-size:18px;">Edit Deal <span class="mono" style="color:var(--red-600);font-size:14px;">'+d.id+'</span></h2>'+
+        '<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button>'+
+      '</div>'+
+      textField('ID','ed-id',d.id,true,true)+
+      textField('Name','ed-name',d.name,true)+
+      textField('Sector','ed-sector',d.sector,true)+
+      textField('Country','ed-country',d.country,true)+
+      selectFieldHtml('Status','ed-status',['Open','In Progress','On Hold','Closed'],true,d.status)+
+      selectFieldHtml('Listing','ed-listing',['No','Yes'],false,d.listing)+
+      textareaFieldHtml('Investment Case','ed-desc',false,d.description)+
+      textField('Deal Size','ed-dealsize',d.deal_size,false)+
+      textField('Funding Type','ed-funding',d.funding_type,false)+
+      textField('Deal Structure','ed-structure',d.structure,false)+
+      textField('Stake for Sale','ed-stake',d.stake,false)+
+      textField('Revenue (US$mn)','ed-revenue',d.revenue,false)+
+      textField('EBITDA (US$mn)','ed-ebitda',d.ebitda,false)+
+      '<div style="display:flex;gap:8px;margin-top:6px;">'+
+        '<button id="btn-delete-deal" class="btn btn-secondary" style="flex:1;color:var(--red-600);">Delete</button>'+
+        '<button id="btn-update-deal" class="btn btn-primary" style="flex:2;">Save Changes</button>'+
+      '</div>'+
+    '</div></div>');
+  bindModalClose();
+  var btn = document.getElementById('btn-update-deal');
+  btn.onclick = async function(){
+    var payload = {
+      status: document.getElementById('ed-status').value,
+      name: document.getElementById('ed-name').value.trim(),
+      sector: document.getElementById('ed-sector').value.trim(),
+      country: document.getElementById('ed-country').value.trim(),
+      listing: document.getElementById('ed-listing').value,
+      description: document.getElementById('ed-desc').value.trim(),
+      deal_size: document.getElementById('ed-dealsize').value.trim(),
+      funding_type: document.getElementById('ed-funding').value.trim(),
+      structure: document.getElementById('ed-structure').value.trim(),
+      stake: document.getElementById('ed-stake').value.trim(),
+      revenue: document.getElementById('ed-revenue').value.trim(),
+      ebitda: document.getElementById('ed-ebitda').value.trim()
+    };
+    if(!payload.name||!payload.sector||!payload.country){ toast('Please fill in all required fields.','error'); return; }
+    btn.textContent='Saving...'; btn.disabled=true;
+    var {error} = await sb.from('pipeline').update(payload).eq('id', d.id);
+    btn.textContent='Save Changes'; btn.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    state.cache.pipeline=null;
+    closeModal();
+    logActivity('Edited deal', d.id+' - '+payload.name);
+    toast('Deal '+d.id+' updated.');
+    renderPipeline();
+  };
+  var delBtn = document.getElementById('btn-delete-deal');
+  delBtn.onclick = async function(){
+    if(!confirm('Delete deal '+d.id+'? This cannot be undone.')) return;
+    delBtn.textContent='Deleting...'; delBtn.disabled=true;
+    await sb.from('deal_assignments').delete().eq('deal_id', d.id);
+    var {error} = await sb.from('pipeline').delete().eq('id', d.id);
+    if(error){ toast(error.message,'error'); delBtn.textContent='Delete'; delBtn.disabled=false; return; }
+    state.cache.pipeline=null;
+    closeModal();
+    logActivity('Deleted deal', d.id+' - '+esc(d.name));
+    toast('Deal '+d.id+' deleted.');
+    renderPipeline();
+  };
+}
+
+function editInvestorModal(d){
+  openModal('<div style="position:fixed;inset:0;background:rgba(20,18,16,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;" id="gi-modal-bg">'+
+    '<div class="card scroll" style="max-width:560px;width:100%;max-height:88vh;overflow:auto;padding:26px 28px;">'+
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;">'+
+        '<h2 style="font-size:18px;">Edit Investor <span class="mono" style="color:var(--red-600);font-size:14px;">'+d.id+'</span></h2>'+
+        '<button id="gi-modal-close" style="border:none;background:var(--gray-100);width:28px;height:28px;border-radius:50%;font-size:15px;">&times;</button>'+
+      '</div>'+
+      textField('ID','ei-id',d.id,true,true)+
+      textField('Investor Type','ei-type',d.investor_type,true)+
+      textField('Jurisdiction','ei-juris',d.jurisdiction,true)+
+      selectFieldHtml('Type','ei-ptype',['PE','VC','IF','FM','BF','FG'],true,d.ptype)+
+      textField('Target Market','ei-target',d.target_country,false)+
+      textareaFieldHtml('Sector of Interest','ei-sector',false,d.sector)+
+      textareaFieldHtml('Strategy','ei-strategy',false,d.strategy)+
+      textField('Min Deal Size','ei-mindeal',d.min_deal,false)+
+      textField('Min EBITDA','ei-minebitda',d.min_ebitda,false)+
+      textField('Min Revenue','ei-minrev',d.min_rev,false)+
+      textareaFieldHtml('Remarks','ei-remarks',false,d.remarks)+
+      '<div style="display:flex;gap:8px;margin-top:6px;">'+
+        '<button id="btn-delete-investor" class="btn btn-secondary" style="flex:1;color:var(--red-600);">Delete</button>'+
+        '<button id="btn-update-investor" class="btn btn-primary" style="flex:2;">Save Changes</button>'+
+      '</div>'+
+    '</div></div>');
+  bindModalClose();
+  var btn = document.getElementById('btn-update-investor');
+  btn.onclick = async function(){
+    var payload = {
+      investor_type: document.getElementById('ei-type').value.trim(),
+      jurisdiction: document.getElementById('ei-juris').value.trim(),
+      ptype: document.getElementById('ei-ptype').value,
+      target_country: document.getElementById('ei-target').value.trim(),
+      sector: document.getElementById('ei-sector').value.trim(),
+      strategy: document.getElementById('ei-strategy').value.trim(),
+      min_deal: document.getElementById('ei-mindeal').value.trim(),
+      min_ebitda: document.getElementById('ei-minebitda').value.trim(),
+      min_rev: document.getElementById('ei-minrev').value.trim(),
+      remarks: document.getElementById('ei-remarks').value.trim()
+    };
+    if(!payload.investor_type||!payload.jurisdiction){ toast('Please fill in all required fields.','error'); return; }
+    btn.textContent='Saving...'; btn.disabled=true;
+    var {error} = await sb.from('investor_needs').update(payload).eq('id', d.id);
+    btn.textContent='Save Changes'; btn.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    state.cache.investors=null;
+    closeModal();
+    logActivity('Edited investor', d.id+' - '+payload.investor_type);
+    toast('Investor '+d.id+' updated.');
+    renderInvestors();
+  };
+  var delBtn = document.getElementById('btn-delete-investor');
+  delBtn.onclick = async function(){
+    if(!confirm('Delete investor '+d.id+'? This cannot be undone.')) return;
+    delBtn.textContent='Deleting...'; delBtn.disabled=true;
+    var {error} = await sb.from('investor_needs').delete().eq('id', d.id);
+    if(error){ toast(error.message,'error'); delBtn.textContent='Delete'; delBtn.disabled=false; return; }
+    state.cache.investors=null;
+    closeModal();
+    logActivity('Deleted investor', d.id+' - '+esc(d.investor_type));
+    toast('Investor '+d.id+' deleted.');
+    renderInvestors();
+  };
+}
+
+/* ---------------- EVENT BINDINGS ---------------- */
+function bindPipelineEvents(){
+  var pq=root.querySelector('#pipe-q'); if(pq) pq.oninput=function(){ state.pipeQ=pq.value; state.pipePage=1; renderPipeline(); };
+  var ps=root.querySelector('#pipe-sector'); if(ps) ps.onchange=function(){ state.pipeSector=ps.value; state.pipePage=1; renderPipeline(); };
+  var pst=root.querySelector('#pipe-status'); if(pst) pst.onchange=function(){ state.pipeStatus=pst.value; state.pipePage=1; renderPipeline(); };
+  var badd=root.querySelector('#btn-add-deal'); if(badd) badd.onclick=function(){ addDealModal(); };
+  var breq=root.querySelector('#btn-request-access'); if(breq) breq.onclick=function(){ requestAccessModal(); };
+  root.querySelectorAll('tr[data-deal]').forEach(function(tr){
+    tr.onclick=function(e){ if(e.target.closest('[data-assign]')) return; var d=state.cache.pipeline.find(function(x){return x.id===tr.getAttribute('data-deal');}); dealModal(d); };
+  });
+  root.querySelectorAll('[data-assign]').forEach(function(b){
+    b.onclick=function(e){ e.stopPropagation(); var d=state.cache.pipeline.find(function(x){return x.id===b.getAttribute('data-assign');}); assignModal(d); };
+  });
+  bindPagination(function(key,page){ state.pipePage=page; renderPipeline(); });
+  makeResizableTable('pipe-table','pipe');
+}
+function bindInvestorEvents(){
+  var iq=root.querySelector('#inv-q'); if(iq) iq.oninput=function(){ state.invQ=iq.value; state.invPage=1; renderInvestors(); };
+  var it=root.querySelector('#inv-type'); if(it) it.onchange=function(){ state.invType=it.value; state.invPage=1; renderInvestors(); };
+  var badd=root.querySelector('#btn-add-investor'); if(badd) badd.onclick=function(){ addInvestorModal(); };
+  root.querySelectorAll('tr[data-inv]').forEach(function(tr){
+    tr.onclick=function(){ var d=state.cache.investors.find(function(x){return x.id===tr.getAttribute('data-inv');}); investorModal(d); };
+  });
+  bindPagination(function(key,page){ state.invPage=page; renderInvestors(); });
+  makeResizableTable('inv-table','inv');
+}
+function bindAdminUsersEvents(){
+  root.querySelectorAll('[data-role]').forEach(function(sel){
+    sel.onchange=async function(){
+      var id = sel.getAttribute('data-role');
+      var targetUser = state.cache.profiles.find(function(x){return x.id===id;});
+      var payload = {role: sel.value};
+      var {error} = await sb.from('profiles').update(payload).eq('id', id);
+      if(error){ toast(error.message,'error'); return; }
+      logActivity('Changed role', (targetUser?targetUser.email:id)+' -> '+sel.value);
+      toast('Role updated.');
+      state.cache.profiles=null; renderAdminUsers();
+    };
+  });
+  root.querySelectorAll('[data-status]').forEach(function(chk){
+    chk.onchange=async function(){
+      var id = chk.getAttribute('data-status');
+      var targetUser = state.cache.profiles.find(function(x){return x.id===id;});
+      var newStatus = chk.checked?'active':'disabled';
+      var {error} = await sb.from('profiles').update({status: newStatus}).eq('id', id);
+      if(error){ toast(error.message,'error'); return; }
+      logActivity('Changed status', (targetUser?targetUser.email:id)+' -> '+newStatus);
+      state.cache.profiles=null; renderAdminUsers();
+    };
+  });
+  root.querySelectorAll('[data-history]').forEach(function(b){
+    b.onclick=function(){ historyModal(b.getAttribute('data-history')); };
+  });
+  bindPagination(function(key,page){ state.usersPage=page; renderAdminUsers(); });
+  makeResizableTable('users-table','users');
+}
+function bindProfileEvents(){
+  var btn = root.querySelector('#btn-save-profile');
+  if(btn) btn.onclick=async function(){
+    var payload = {
+      full_name: root.querySelector('#pf-name').value||state.profile.full_name,
+      company: root.querySelector('#pf-company').value||'',
+      title: root.querySelector('#pf-title').value||'',
+      phone_cc: root.querySelector('#pf-cc').value,
+      phone: root.querySelector('#pf-phone').value||''
+    };
+    btn.textContent='Saving...'; btn.disabled=true;
+    var {error} = await sb.from('profiles').update(payload).eq('id', state.profile.id);
+    btn.textContent='Save changes'; btn.disabled=false;
+    if(error){ toast(error.message,'error'); return; }
+    Object.assign(state.profile, payload);
+    logActivity('Updated profile', 'Self');
+    toast('Changes saved.');
+  };
+}
+function updateNavActiveStyles(){
+  root.querySelectorAll('[data-nav]').forEach(function(b){
+    var active = b.getAttribute('data-nav')===state.tab;
+    b.classList.toggle('active', active);
+  });
+}
+function bindShellEvents(){
+  root.querySelectorAll('[data-nav]').forEach(function(b){ b.onclick=function(){ state.tab=b.getAttribute('data-nav'); state.sidebarOpen=false; updateNavActiveStyles(); renderTab(); }; });
+  var lo = root.querySelector('#btn-logout'); if(lo) lo.onclick=async function(){ await sb.auth.signOut(); state.session=null; state.profile=null; state.cache={pipeline:null,investors:null,profiles:null,myHistory:null,audit:null,myAccessReq:undefined,accessRequests:null}; render(); };
+  var hb = root.querySelector('#btn-hamburger'); if(hb) hb.onclick=function(){ state.sidebarOpen=true; root.querySelector('#gi-sidebar').classList.add('open'); root.querySelector('#gi-overlay').classList.add('show'); };
+  var ov = root.querySelector('#gi-overlay'); if(ov) ov.onclick=function(){ state.sidebarOpen=false; root.querySelector('#gi-sidebar').classList.remove('open'); ov.classList.remove('show'); };
+}
+
+/* ---------------- ROUTER / RENDER ---------------- */
+function renderTab(){
+  if(state.profile.status==='disabled'){ setBody(disabledScreen(state.profile)); return; }
+  var isAdmin = state.profile.role==='admin';
+  if(state.tab==='dashboard' && isAdmin) renderDashboard();
+  else if(state.tab==='pipeline') renderPipeline();
+  else if(state.tab==='investors') renderInvestors();
+  else if(state.tab==='admin-users' && isAdmin) renderAdminUsers();
+  else if(state.tab==='access-requests' && isAdmin) renderAccessRequests();
+  else if(state.tab==='audit-trail' && isAdmin) renderAuditTrail();
+  else if(state.tab==='profile') renderProfile();
+  else { state.tab = isAdmin? 'dashboard':'investors'; isAdmin? renderDashboard() : renderInvestors(); }
+}
+
+function render(){
+  if(!sb){ root.innerHTML = notConfiguredScreen(); return; }
+  if(state.authMode==='recovery'){ root.innerHTML = authScreen(); bindAuth(); return; }
+  if(!state.session || !state.profile){ root.innerHTML = authScreen(); bindAuth(); return; }
+  root.innerHTML = appShell(state.profile.status==='disabled'? disabledScreen(state.profile) : loadingBlock(3));
+  bindShellEvents();
+  renderTab();
+}
+
+async function afterAuth(){
+  var {data:{session}} = await sb.auth.getSession();
+  state.session = session;
+  if(session){
+    state.profile = await loadProfile(session.user.id);
+    if(state.profile && state.profile.role==='admin'){ fetchAllAccessRequests().then(function(){ if(state.session) render(); }); }
+  }
+  render();
+}
+
+if(sb){
+  sb.auth.onAuthStateChange(function(event, session){
+    state.session = session;
+    if(event==='PASSWORD_RECOVERY'){ state.authMode='recovery'; render(); return; }
+    if(!session){ state.profile=null; render(); }
+  });
+  root.innerHTML = '<div style="padding:100px;text-align:center;color:var(--slate);">Loading...</div>';
+  afterAuth();
+} else {
+  render();
+}
+
+})();
+</script>
+</body>
+</html>
